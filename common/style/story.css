@@ -1,0 +1,60 @@
+/*--- Tag styles ---*/
+body {
+	margin:0;
+	padding:0;
+	background-color:#eee;
+}
+
+header {
+	margin:80px 0px 40px;
+}
+
+h1 { /* Story title */
+	text-align:center;
+	font-size:2em;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;	
+}
+
+h2 { /* Chapter title */
+	
+}
+
+p { /* Paragraphs and dialogs */
+	margin:0 64px;
+	text-indent:2em;
+	text-align: justify;
+	font-size:1em;
+	font-weight: normal;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+	margin:80px 64px 40px;
+	text-align:right;
+	color: #444;
+}
+
+
+/*--- Divs styles ---*/
+
+#page {
+	width:820px;
+	margin:30px auto;
+	padding:10px;
+	background-color:#fff;
+	border-radius:6px;
+}
+
+#maincontainer {
+	width:100%;
+	margin:0 auto;
+	padding:0;
+}
+
+/** Category **/
+
+/*--- Classes ---*/
+.blankline {
+	height:1em;
+}

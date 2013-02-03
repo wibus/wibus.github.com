@@ -1,0 +1,8 @@
+To make a ogg video :
+#ffmpeg -i Input.ext -b 2500k -vcodec libtheora -acodec libvorbis -ab 192k -g 30 Outpout.ogv
+
+To make a mp4 video :
+#ffmpeg -i INPUTFILE -b 1500k -vcodec libx264 -vpre slow -vpre baseline -g 30 "OUTPUTFILE.mp4"
+
+To make a webm video :
+#ffmpeg -i "INPUTFILE"  -b 1500k -vcodec libvpx -acodec libvorbis -ab 160000 -f webm -g 30 "OUTPUTFILE.webm"
