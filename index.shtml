@@ -8,8 +8,8 @@
 	<body>
 		<div id="page">
 			<div id="maincontainer">
-<!--#include virtual="/william/common/content/header.html"-->
-<!--#include virtual="/william/common/content/navbar.html"-->
+<!--#include file="common/content/header.html"-->
+<!--#include file="common/content/navbar.html"-->
 				<div id="column-container">
 					<div id="left-column">
 					<div class="column-inner">
@@ -29,7 +29,7 @@
 						<h3>Right column</h3>
 					</div>
 					</div>
-<!--#include virtual="/william/common/content/footer.html"-->
+<!--#include file="common/content/footer.html"-->
 				</div>
 			</div>
 		</div>
