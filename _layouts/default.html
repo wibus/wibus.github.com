@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+	{% include head.html %}
+	<body>
+		<div id="page">
+			<div id="maincontainer">
+				{% include header.html %}
+				{% include navbar.html %}
+				<div id="colomn-containre">
+					{{ content }}
+					{% include footer.html %}
+				</div>
+			</div>
+		</div>		
+	</body>
+</html>
+
