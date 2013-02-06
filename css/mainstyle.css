@@ -2,7 +2,7 @@
 body {
 	margin: 0;
 	padding: 0;
-	background-image:url(../images/Room_Cartoonish.jpg);
+	background-image:url(../img/Room_Cartoonish.jpg);
 	background-size:100%;
 	background-attachment:fixed;
 }
@@ -33,7 +33,7 @@ footer{
 	width:920px;
 	margin:10px auto;
 	padding:10px 10px;
-	background-image:url(../images/transparentBorder2.png);
+	background-image:url(../img/transparentBorder2.png);
 	background-repeat:repeat;
 	border-radius:10px;
 }
