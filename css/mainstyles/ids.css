@@ -1,39 +1,11 @@
-/*--- Tag styles ---*/
-body {
-	margin: 0;
-	padding: 0;
-	background-image:url(../img/Room_Cartoonish.jpg);
-	background-size:100%;
-	background-attachment:fixed;
-}
+@charset "utf-8";
+/* CSS Document */
 
-header{
-	width:100%;
-	margin:0;
-	padding:0;
-	display:inline-block;
-	background-color:white;
-}
-
-footer{
-	width:100%;
-	height:40px;
-	margin:0;
-	padding:0;
-	line-height:40px;
-	display:inline-block;
-	text-align:center;
-	background-color:#f0f0f0;
-	color:#444;
-}
-
-
-/*--- Divs styles ---*/
 #page{
-	width:920px;
+	width:1080px;
 	margin:10px auto;
 	padding:10px 10px;
-	background-image:url(../img/transparentBorder2.png);
+	background-image:url(../../img/transparentBorder2.png);
 	background-repeat:repeat;
 	border-radius:10px;
 }
@@ -179,12 +151,4 @@ footer{
 	padding:0;
 	float:left;
 	display:inline-block;	
-}
-
-/*--- Classes ---*/
-.column-inner{
-	width:100%;
-	height:auto;
-	margin:6px;
-	padding:0;
 }
