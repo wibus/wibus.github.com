@@ -1,0 +1,30 @@
+@charset "utf-8";
+/* CSS Document */
+
+.column-half{
+	width:50%;
+	height:auto;
+	margin:0px 0px;
+	padding:0px 0px;
+	float: left;
+	display:inline-block;
+}
+
+.column-inner{
+	width:auto;
+	height:auto;
+	margin:0 10px;
+	padding:0 10px;
+	background-color:#f8f8f8;
+	border-radius: 6px;
+}
+
+.text-title{
+	text-align: center;
+	padding-top: 1.5em;
+}
+
+.oeuvre {
+	font-style: italic;
+	font-weight: lighter;
+}

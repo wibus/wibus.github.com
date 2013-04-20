@@ -4,6 +4,6 @@
 /* Imports */
 @import url("reset.css");
 
-@import url("mainstyles/tags.css");
-@import url("mainstyles/ids.css");
-@import url("mainstyles/classes.css");
+@import url("main-tag.css");
+@import url("main-id.css");
+@import url("main-class.css");
