@@ -3,17 +3,14 @@ body {
 	margin:0;
 	padding:0;
 	background-color:#eee;
-}
-
-header {
-	margin:80px 0px 40px;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 { /* Story title */
+	margin:80px 0px 40px;
 	text-align:center;
 	font-size:2em;
-	font-weight: bold;
-	font-family: Arial, Helvetica, sans-serif;	
+	font-weight: bold;	
 }
 
 h2 { /* Chapter title */
@@ -21,12 +18,12 @@ h2 { /* Chapter title */
 }
 
 p { /* Paragraphs and dialogs */
-	margin:0 64px;
+	margin:0 58px;
+	padding: 0 0 1em;
 	text-indent:2em;
 	text-align: justify;
 	font-size:1em;
 	font-weight: normal;
-	font-family: Arial, Helvetica, sans-serif;
 }
 
 footer {
@@ -40,7 +37,7 @@ footer {
 
 #page {
 	width:820px;
-	margin:30px auto;
+	margin:60px auto;
 	padding:10px;
 	background-color:#fff;
 	border-radius:6px;
@@ -52,9 +49,17 @@ footer {
 	padding:0;
 }
 
+#full-screen-background-image {
+  z-index: -999;
+  min-height: 100%;
+  min-width: 1080px;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
 /** Category **/
 
 /*--- Classes ---*/
-.blankline {
-	height:1em;
-}

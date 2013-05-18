@@ -2,10 +2,12 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<link rel=stylesheet href="/css/story.css"/>
+		<link rel=stylesheet href="/css/nouvelle.css"/>
 		<title>William Bussière - {{ page.title }}</title>
+		<script language="javaScript" src="/js/right-click-disabled.js"></script>
 	</head>
-	<body>
+	<body ondragstart="return false" onselectstart="return false"> <!-- Disabling copy paste -->
+		<img id="full-screen-background-image" src="/img/backgrounds/{{ page.title }}.jpg" />
 		<div id="page">
 			<div id="maincontainer">
 					{{ content }}
