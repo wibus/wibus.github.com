@@ -6,24 +6,19 @@
 		<title>{{ page.title }}</title>
 	</head>
 	<body>
+		{% include navbar.html %}
 		<div id="page">
-			<div id="maincontainer">
-				{% include header.html %}
-				{% include navbar.html %}
-				<div id="column-container">
-					<div id="nav-column">
-						<div class="column-inner">
-							{% include experimental-theatre-nav.html %}
-						</div>
-					</div>
+			<div class="page-center">
+				<div id="page-inner">
+					{% include experimental-theatre-nav.html %}
 					<div id="text-column">
 						<div class="column-inner">
 							{{ content }}
 						</div>
 					</div>
-					{% include footer.html %}
 				</div>
 			</div>
-		</div>		
+		</div>
+		{% include footer.html %}
 	</body>
 </html>
