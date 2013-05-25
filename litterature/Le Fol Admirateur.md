@@ -2,7 +2,8 @@
 layout: nouvelle
 title: Le Fol Admirateur
 ---
-#Le Fol Admirateur
+
+#{{ page.title }}
 
 Il se tenait droit, le pouls croissant, immobiliser par le potentiel catastrophique. Devant son corps siégeait une plante au bord de la fenêtre. Elle scrutait la vitre à la recherche d'un rayon de soleil, étant naturellement insensible à la lumière artificielle. Cette palmacées était visiblement soulagée de voir son compagnon de retour pour la sauvée.
 
@@ -18,4 +19,4 @@ Elle en avait mare. Cela faisait près de deux heures qu'elle tournait autour du
 
 Rose enleva son manteau et sortie ses couteaux, prête à sauter à la gorge de son ennemie. Elle s'avança lentement, à pas silencieux telle une lionne dans la brousse, étira le bras pour atteindre la position voulue et s'exécuta. Au premier coup asséné : «clic», elle lui trancha la jugulaire. Puis un second : «clic», qui découpa son tronc en deux. Une dernière manœuvre : «clic» permis de la délogée de son lit. Mission accomplie; Rose avait tuée l'arbre de son copain!
 
-<footer>William Bussière 2012</footer>
+{% include nouvelle-footer.html %}

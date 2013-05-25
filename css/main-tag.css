@@ -3,7 +3,8 @@
 
 body {
 	font-size: 12pt;
-	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-family: 'Droid Sans', serif;
+	font-weight: 300;
 	background-color:#eee;
 }
 

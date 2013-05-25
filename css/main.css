@@ -1,6 +1,9 @@
 @charset "utf-8";
 /* CSS Document */
 
+/* Third party fonts */
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans);
+
 /* Imports */
 @import url("reset.css");
 

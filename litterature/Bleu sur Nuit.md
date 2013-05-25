@@ -2,7 +2,8 @@
 layout: nouvelle
 title: Bleu sur Nuit
 ---
-#Bleu sur Nuit
+
+#{{ page.title }}
 
 Une petite berline rouge qui roulait sous les vents, sillonait ces vielles montagnes en bordure du continent. Elle abritait un jeune couple, vieux d'un été, qui , après avoir passé tout  l'automne dans leur tête, avait hâte de braver l'hiver en une fête. Ils étaient fin prêts, les skis dans le coffre et les gants jusqu'aux poignets, à entreprendre leur lune de miel qu'ils avaient échafaudée entre deux cours d'université. Bientôt la pair arrivait au camps et le rêve pourrait commencer.
 
@@ -15,3 +16,5 @@ Aussitôt l'assiette entre ses doigts, le volant s'y substitua, il établit un c
 &mdash; Jacques! Merde, reviens à nous. C'est le deuxième orignal que je nous évite en quinze minutes. Si tu ne te sens pas capable de te concentrer, je vais prendre le volant.
 
 &mdash; Non, non, c'est correct. Merci.
+
+{% include nouvelle-footer.html %}
