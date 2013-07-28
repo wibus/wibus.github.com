@@ -10,7 +10,6 @@
 	width:50%;
 	height:auto;
 	float: left;
-	display:inline-block;
 }
 
 .column-inner{
@@ -28,4 +27,19 @@
 .oeuvre {
 	font-style: italic;
 	font-weight: lighter;
+}
+
+.arrowup {
+	height: 0;
+	width: 0;
+	display: inline-block;
+	border: 5px solid transparent;
+	border-bottom-color: #ccc;
+}
+.arrowdown {
+	height: 0;
+	width: 0;
+	display: inline-block;
+	border: 5px solid transparent;
+	border-top-color: #ccc;
 }
