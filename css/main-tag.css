@@ -2,9 +2,9 @@
 /* CSS Document */
 
 body {
-	font-size: 12pt;
+	font-size: 13pt;
 	font-family: 'Droid Sans', serif;
-	font-weight: 300;
+	font-weight: 200;
 	background-color:#eee;
 }
 
@@ -17,15 +17,15 @@ nav{
 	padding:0;
 	display:block;
 	list-style-type:none;
-	font-size: 1.2em;
+	font-size: 1.1em;
 }
 
 nav li{
 	height:45px;
 	margin:0;
 	padding:0;
-	display:inline-block;
-	float:left;
+	display:block;
+	float: left;
 	line-height:45px;
 	list-style:none;
 	position:relative;
@@ -95,6 +95,7 @@ p {
 	padding: 0 1em 1em;
 	text-align: justify;
 	text-indent: 2em;
+	line-height: 130%;
 }
 
 
@@ -103,14 +104,10 @@ a {
 	color: blue;
 	text-decoration: none;
 }
-a:link {
-}
 a:visited {
 	color: purple;
 }
 a:hover {
 	color: darkblue;
 	text-decoration: underline;
-}
-a:active {
 }
