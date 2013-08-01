@@ -1,74 +1,18 @@
-.covers-container {
-	font-size: 0;
-	text-align: justify;
-}
+@charset "utf-8";
+/* CSS Document */
 
-.covers-container:after {
-  content: '';
-  width: 100%;
-  display: inline-block;
-}
-
-.cover {
-	border: solid 5px;
-	border-radius: 3px;
-  	display: inline-block;
-  	box-shadow: 5px 5px 5px #333;
-}
-
-.cover.big {
+.centered {
+	margin-left: auto;
+	margin-right: auto;
 	position: relative;
-	margin: 40px auto;
 	display: block;
-	background-color: transparent;
-}
-
-.cover div {
-	position: absolute;
-  	display: inline-block;
-}
-
-.cover-info {
-	font-family: 'Source Sans Pro', serif;
-	opacity: 0;
-	transition: 0.7s;
-}
-
-.cover:hover .cover-info{
-	opacity: 1;
-	transition: 1.0s;
-}
-
-.cover-info div {
-	opacity: 0.8;
-	height: 60px;
-}
-
-.cover-info-header {
-	top: 0;
-	font-weight: 300;
-	font-size: 24pt;
-}
-
-.cover-info-footer {
-	bottom: 0;
-	font-size: 10pt;
-}
-
-.cover-info p {
-	position: absolute;
-	color: #fff;
-	text-indent: 0;
-	text-align: left;
-	margin: 20px 0 10px 10px;
-	padding: 0;
 }
 
 .big {
 	width: 533px;
 	height: 300px;
-	border-color: #0f0;
-	background-color: #0f0;
+	border-color: #2C0;
+	background-color: #2C0;
 }
 
 .small {
@@ -78,94 +22,86 @@
 	background-color: #00f;
 }
 
-.cover-info {
+.covers-line-single {
+	margin: 20px 0;
+	font-size: 0;
+	text-align: center;
+}
+
+.covers-line-multiple {
+	padding: 20px 0;
+	font-size: 0;
+	text-align: justify;
+}
+
+.covers-line-multiple:after {
+  display: inline-block;
+  content: '';
+  width: 100%;
+}
+
+.cover {
+	position: relative;
+  	display: inline-block;
+	border-style: solid;
+	border-radius: 3px;
+	border-width: 5px;
+  	box-shadow: 5px 5px 5px #333;
 	background-color: transparent;
 }
 
-#exth-logo {
+.cover-info {
+	position: absolute;
+	transition: 0.7s;
+	opacity: 0;
+	font-family: 'Source Sans Pro', serif;
+	background-color: transparent;
+}
+
+.cover:hover .cover-info {
+	transition: 1.0s;
+	opacity: 1;
+}
+
+.cover-info-header, 
+.cover-info-footer {
+	position: absolute;
+	opacity: 0.8;
+	height: 60px;
+}
+
+.cover-info-header {
+	top: 0;
+	font-size: 24pt;
+	font-weight: 300;
+}
+
+.cover-info-footer {
+	bottom: 0;
+	font-size: 10pt;
+	font-weight: 700;
+}
+
+.cover-info p {
+	height: auto;
+	margin: 20px 0 10px 10px;
+	padding: 0;
+	color: #fff;
+	text-indent: 0;
+	text-align: left;
+}
+
+.centered {
 	position: absolute;
 	display: block;
-	width: 160px;
-	height: 160px;
 	margin: auto;
 	top: 0;
+	right: 0;
 	bottom: 0;
 	left: 0;
-	right: 0;
-	border-radius: 10px;
-	background-color: #2C0;
 }
 
-#exth-logo div {
-	background-color: white;
-}
-
-#stairs {
-	width: 100px;
-	height: 10px;
-	bottom: 34px;
-	left: 30px;
-	border-radius: 2px 2px 0 0;
-}
-
-#stairs:after {
-	content: '';
-	position: absolute;
-	width: 80px;
-	height: 10px;
-	bottom: 10px;
-	left: 10px;
-	border-radius: 2px 2px 0 0;
-	background-color: white;
-}
-
-#curtain-left {
-	width: 37px;
-	height: 32px;
-	border-radius: 2px 0 30px 0;
-	bottom: 84px;
-	left: 40px;
-}
-
-#curtain-left:after {	
-	content: '';
-	position: absolute;
-	width: 10px;
-	height: 58px;
-	top: 0;
-	left: 0;
-	border-radius: 2px 0 2px 0;
-	background-color: white;
-}
-
-#curtain-right {
-	width: 37px;
-	height: 32px;
-	border-radius: 0 2px 0 30px;
-	bottom: 84px;
-	right: 40px;
-}
-
-#curtain-right:after {	
-	content: '';
-	position: absolute;
-	width: 10px;
-	height: 58px;
-	top: 0;
-	right: 0;
-	border-radius: 0 2px 0 2px;
-	background-color: white;
-}
-
-#curtain-top {
-}
-
-#logo-text {
-	position: absolute;
-	display: inline-block;
-	font-size: 24px;
-	text-align: center;
-	color: white;
-	width: 100%;
-	bottom: 54px;
+#exth-logo-wrapper {
+	width: 160px;
+	height: 160px;
 }

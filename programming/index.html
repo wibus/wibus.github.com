@@ -3,24 +3,21 @@ layout: default
 title: Programming
 ---
 <link rel=stylesheet href="/css/programming.css"/>
-<!--script language="javaScript" src="/js/exth-logo.js"></script-->
 
-<div class="cover big">
-	<div class="cover-info big">
-		<div class="cover-info-header big"></div>
-		<div class="cover-info-footer big"></div>
-		<p class="cover-info-header">Experimental Theatre</p>
-		<p class="cover-info-footer">C++ Qt OpenGL/GLSL CMake</p>
-	</div>
-	<div id="exth-logo">
-		<div id="stairs"></div>
-		<div id="curtain-left"></div>
-		<div id="curtain-right"></div>
-		<div id="curtain-top"></div>
-		<i id="logo-text">ExTh</i>
+<div class="covers-line-single">
+	<div class="cover big">
+		<div id="exth-logo-wrapper" class="centered">
+			{% include exth-logo.html %}
+		</div>
+		<div class="cover-info big">
+			<div class="cover-info-header big"></div>
+			<div class="cover-info-footer big"></div>
+			<p class="cover-info-header">Experimental Theatre</p>
+			<p class="cover-info-footer">C++ Qt OpenGL/GLSL CMake</p>
+		</div>
 	</div>
 </div>
-<div class="covers-container">
+<div class="covers-line-multiple">
 	<div class="cover small">
 		<div class="cover-info small">
 			<div class="cover-info-header small"></div>
