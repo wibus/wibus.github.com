@@ -17,4 +17,6 @@ Marcel, enthousiasmé qu'un grand propriétaire puisse en attendre de sa présen
 
 M. Vaillancour siègeait catatoniquement dans sa large chaise capitoné, lui qui attendait l'arrivée impromptue de son dernier postulant. Regardons cette scène d'un angle tout particulié. Nous sommes à la hauteur du bureau, notre regard rasant sa surface, acculé dans l'un des coins à l'arrière de la pièce de sorte que le fauteuil de M. Vaillancour nous fait dos, et lui aussi d'ailleurs, et placé légèrement à notre droite dégageant ainsi la vue que nous avons sur la porte. Par ailleurs, cette porte mérite d'être dépeinte quelque peu. Deux vitres juxtaposés sur la hauteur en fendent le bois plein. Celles-ci transmetent la lumière d'une façon si désordonnée qu'elles ne permettent pas de distinguer un visage d'une bible. Mais monsieur apprit avec le temps à distinguer les deux comme une une mère apprend à dégager l'essentiel du propos à travers les marmonements, que certains qualifie de mugissements ou de grognements, de son fils. 
 
+À suivre...
+
 {% include nouvelle-footer.html %}

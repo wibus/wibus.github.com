@@ -1,0 +1,78 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+#page {
+	min-height: 750px;
+	padding-top: 70px;
+	padding-bottom: 24px;
+}
+
+#page-inner {
+	width: 100%;
+	padding: 36px;
+	display:inline-block;
+	background-color:white;
+	border-radius: 5px;
+}
+
+.page-center {
+	width:1080px;
+	margin:0 auto;
+}
+
+.column-half{
+	width:50%;
+	height:auto;
+	float: left;
+}
+
+.column-inner{
+	width:auto;
+	height:auto;
+	margin:0 10px;
+	padding:0 10px;
+}
+
+.horizontally-centered {
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	display: block;
+}
+
+.two-way-centered {
+	position: absolute;
+	display: block;
+	margin: auto;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+
+.centered-blocks-container {
+	font-size: 0;
+	text-align: center;
+}
+
+.justified-blocks-container {
+	font-size: 0;
+	text-align: justify;
+}
+
+.justified-blocks-container:after {
+  display: inline-block;
+  content: '';
+  width: 100%;
+}
+
+.text-title{
+	text-align: center;
+	padding-top: 1em;
+}
+
+.oeuvre {
+	font-style: italic;
+	font-weight: lighter;
+}

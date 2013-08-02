@@ -1,13 +1,6 @@
 @charset "utf-8";
 /* CSS Document */
 
-.centered {
-	margin-left: auto;
-	margin-right: auto;
-	position: relative;
-	display: block;
-}
-
 .big {
 	width: 533px;
 	height: 300px;
@@ -22,22 +15,8 @@
 	background-color: #00f;
 }
 
-.covers-line-single {
-	margin: 20px 0;
-	font-size: 0;
-	text-align: center;
-}
-
-.covers-line-multiple {
+.covers-line {
 	padding: 20px 0;
-	font-size: 0;
-	text-align: justify;
-}
-
-.covers-line-multiple:after {
-  display: inline-block;
-  content: '';
-  width: 100%;
 }
 
 .cover {
@@ -89,16 +68,6 @@
 	color: #fff;
 	text-indent: 0;
 	text-align: left;
-}
-
-.centered {
-	position: absolute;
-	display: block;
-	margin: auto;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
 }
 
 #exth-logo-wrapper {
