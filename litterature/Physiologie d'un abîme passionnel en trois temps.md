@@ -3,8 +3,6 @@ layout: nouvelle
 title: Physiologie d'un abîme passionnel en trois temps
 ---
 
-#Physiologie d'un abîme passionnel en trois temps
-
 Le soleil, caché derrière les montagnes émoussées, envoyait déjà ses derniers rayons ardents lorsque le jeune couple se tenait devant les portes du restaurant. Ils levèrent les yeux pour apprécier le travail de centaines d’hommes qui avaient creusé le roc d’une falaise haute de cent mètres pour y introduire un commerce et des hommes. Mais, avant de pouvoir pénétrer dans le hall d’entrée, il était impossible de ne pas scruter la façade sculptée dans le bois en un dédale de polygones. Elle était faite de sorte qu’aucun endroit n’était une copie ou une symétrie d’un autre sur le mur, qu’ils étaient tous uniques les uns aux autres en leur structure, mais qu’il n’y avait pas de déséquilibre dans l’ensemble. Un fois son esprit ressourcé de cette vue, mademoiselle Bishop emboîta le pas permettant ainsi à son mari de percevoir une énergie semblable à celle de la façade se dégageant des innombrables plis de sa robe de soirée, à la différence près que les gracieuses et coquettes courbes de sa silhouette en adoucissait le ton. Elle se retourna ensuite pour faire signe de la tête à son fiancé de venir la rejoindre, lui qui était tombé dans une rêverie où Julie y tenait le rôle principale.
 
 &mdash; Sam! Viens-tu voir à quoi ça ressemble à l’intérieur?
@@ -150,5 +148,3 @@ En sortant, Sam et Julie virent sur le mur un petit cadre dont le portrait de le
 
 Tout en pénétrant plus profondément dans la forêt, le couple se dévêtu pièces par pièces, morceaux par morceaux puis lambeaux par loques pour revenir à leur état naturelle. Sur le chemin, ils aperçurent un mulot sur le sentier. Ils le poursuivirent à pas de course. Ils défilèrent ainsi sur la roche, de grosses roches, puis sur le sable et enfin sur de la terre. Ce sol, tapé par les innombrables marches des visiteurs, était soutenu par les racines des arbres environnant et sonnait donc creux sous le poids des coureurs. Il résonnait à la façon d'un tambour sourd martelé par un enragé ayant peu le sens du rythme. Pris de panique, deux castors détalèrent sur la rivière. Puis, les Bishop prirent un moment pour observer ce spectacle gracieux, offert en toute simplicité et dont la langueur sait adoucir les âme ouvertes. Suivant la direction que prenait la nage des rongeurs, les amoureux distinguèrent sous la lumière du projecteur trois canards qui pataugeaient sans souci dans cet écoulement calme de la rivière. Ainsi, le couple se redirigea vers la tente, valsant sur le tempo que la nature lui avait improvisé. 
 Cette nuit là, Julie eu quelques peines à s'endormir. Elle était impatiente d'aller voir, le lendemain matin, la brume sur la rivière. Une douce brume qui caressait la vallée et, qu'une fois le soleil bien levé, découvrait les îles du cours d'eau où ils aimaient bien aller.
-
-{% include nouvelle-footer.html %}

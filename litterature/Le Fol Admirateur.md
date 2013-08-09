@@ -3,8 +3,6 @@ layout: nouvelle
 title: Le Fol Admirateur
 ---
 
-#{{ page.title }}
-
 Il se tenait droit, le pouls croissant, immobiliser par le potentiel catastrophique. Devant son corps siégeait une plante au bord de la fenêtre. Elle scrutait la vitre à la recherche d'un rayon de soleil, étant naturellement insensible à la lumière artificielle. Cette palmacées était visiblement soulagée de voir son compagnon de retour pour la sauvée.
 
 C'était jour de tempête et trente centimètres de neige s'entassaient sur le sol. Sans compté qu'une dizaine d'autres attendaient leur tour dans le ciel et ralentissaient leur chute dans l'espoir qu'un camion leur déblaya un coin. Toute cette neige s'était engouffrée dans le trou devant la fenêtre de la chambre du jeune professionnel. Il habitait un petit trois et demi à Drummondville, au sous-sol d'un deux logements. Voyant le peu de lumière qui parvenait dans le sien, il avait tenté de faire entendre raison à la propriétaire pour qu'elle lui laisse l'appartement du dessus, sans quoi, son amie allait mourir à petit feu. De son côté, Micheline, la propriétaire du duplexe, avait tenté de raisonner son locataire pour lui faire comprendre qu'elle habitait justement le dessus et que s'il n'était pas content, qu'il pouvait déménager, lui et son végétal.
@@ -18,5 +16,3 @@ Le jours suivants, le pensionnaire n'osa même plus sortir, de peur que son frag
 Elle en avait mare. Cela faisait près de deux heures qu'elle tournait autour du bâtiment pour y pénétrer. Pourtant, Rose l'avait visité plusieurs fois auparavant, mais elle ne se souvenait plus où était le meilleur endroit pour entrer incognito. La jeune femme s'était bien préparée pour cette soirée. Vêtue de blanc, elle se confondaient avec la neige, et ses vêtements noir la feraient fondre dans l'obscurité du bâtiment. Elle avait réussit; une fenêtre dans la cuisine était restée débarrée et permettait tout juste à son corps elliptique, de foyer cou et genoux,  de passer à travers. Une fois le pied sur le comptoir, elle repéra tout de suite son objectif et fonça. Rose allait enfin pouvoir se débarrasser de sa grande rivale. Celle-ci était apparemment intouchable, surtout parce qu'elle ne sortait jamais sans son amant et ne semblait avoir qu'un point faible : la surprise. Le but était de l'attaqué en pleine nuit, lorsqu'elle s'y attendrait le moins. Ainsi, son amant ne pourrait la protéger.
 
 Rose enleva son manteau et sortie ses couteaux, prête à sauter à la gorge de son ennemie. Elle s'avança lentement, à pas silencieux telle une lionne dans la brousse, étira le bras pour atteindre la position voulue et s'exécuta. Au premier coup asséné : «clic», elle lui trancha la jugulaire. Puis un second : «clic», qui découpa son tronc en deux. Une dernière manœuvre : «clic» permis de la délogée de son lit. Mission accomplie; Rose avait tuée l'arbre de son copain!
-
-{% include nouvelle-footer.html %}

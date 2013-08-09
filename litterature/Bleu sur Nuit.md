@@ -3,8 +3,6 @@ layout: nouvelle
 title: Bleu sur Nuit
 ---
 
-#{{ page.title }}
-
 Une petite berline rouge qui roulait sous les vents, sillonait ces vielles montagnes en bordure du continent. Elle abritait un jeune couple, vieux d'un été, qui , après avoir passé tout  l'automne dans leur tête, avait hâte de braver l'hiver en une fête. Ils étaient fin prêts, les skis dans le coffre et les gants jusqu'aux poignets, à entreprendre leur lune de miel qu'ils avaient échafaudée entre deux cours d'université. Bientôt la pair arrivait au camps et le rêve pourrait commencer.
 
 Le mari conduisait depuis six heures sans prendre de pause puisqu'il voulait faire le trajet depuis Montréal en cinq jours. Par mégarde, il s'était pris d'une rêverie, comme hypnotisé par le monotone défilement des lignes brisées qui parcourent les routes et il réfléchit un instant à la surprenante propriété du verre à laisser passer la lumière. Surprenante pour lui, qui était un scientifique d'instinct. Puis, cela lui remémora des moments où cette même question lui était venue. En fait, surtout à ces nuits qu'il passait à regarder par l'immense vitre de son salon. Derrière celle-ci se déployait un charmant paysage dont l'hiver sait sculpter les endroits les plus mornes, comme le gazon par exemple. Il y avait une rue qui s'approchait pour formé un T avec la sienne et de grands arbres en décoraient les contours. À bien y penser, les rues formaient un J, car, pendant la saison froide, on pouvait voir les bancs de neige s'illuminer à l'approche d'une voiture dans le coude. C'est durant cette saison qu'il venait passer le plus de temps à la fenêtre. Il appréciait beaucoup les surfaces que la neige façonnait une fois portée par le vent. Les formes étaient si complexes et diversifiées et les courbes si gracieuses qu'il ne pouvait s'y accoutumer.
@@ -16,5 +14,3 @@ Aussitôt l'assiette entre ses doigts, le volant s'y substitua, il établit un c
 &mdash; Jacques! Merde, reviens à nous. C'est le deuxième orignal que je nous évite en quinze minutes. Si tu ne te sens pas capable de te concentrer, je vais prendre le volant.
 
 &mdash; Non, non, c'est correct. Merci.
-
-{% include nouvelle-footer.html %}

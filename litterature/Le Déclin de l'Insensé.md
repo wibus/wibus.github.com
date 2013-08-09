@@ -3,8 +3,6 @@ layout: nouvelle
 title: Le Déclin de l'Insensé
 ---
 
-#{{ page.title }}
-
 Il fût un temps où les mimes paradaient réguliairement dans les parcs et les autres places publiques. Malheureusement, je n'ai plus vu ce genre de spectacle depuis que ma mère est morte. Il fput un temps où nous pouvions déambuler dans les rues des grandes villes à bord de carrousels féériques. Cela non plus, je ne l'ai plus vu depuis que mon père est mort. Il fût aussi un temps où, par mouvais temps, on rencontrait parfois des animaux de compagnie bien habillés qui avaient de la difficulté à se mouvoir à cause du poids de leurs vêtements mouillés. Malgré mes efforts pour continuer la tradition, cela non plus je ne l'ai plus vu depuis que mes frères et soeurs sont morts main dans la main. 
 
 Le monde en est-il rendu à se contenir dans les normles sociales? J'en suis déçu. Personne ne me fera changer d'idée lorsque j'affirme que cette époque révolue fût la meilleure que j'aie vécue. Non pas parce que ma famille étaient encore vivante et unie, mais parce qu'il régnait une légèreté et une gaité commune partout où j'aillais. Je m'enuis trop souvent du temps où ma mère mimait la girouette sur le carrousel que conduisait mon père avec mon grand frère qui trainait une dizaine de chien en laisse vêtus et aspergés par ma soeur qui dirigeait l'arrosoire. Je me rapelle que toute les familles de mes amis à l'école faisent de même. Du mois, c'est ce que mes parents me disaient. 
@@ -16,5 +14,3 @@ période de temps. Ma carrière était si importante à mes yeux que je n'avais 
 
 Par la suite, tous mes frères et soeurs, soient David et Andréanne, en passant je me nomme Jacob, mourrurent dans un brutal accident d'avion. Les seules traces que l'on trouvèrent d'eux après l'écrasement fûent leurs mains jointe. L'une sectionnée au poignet et l'autre au coude. Àprès ces pertes complémentaires de parents, je me suis brusquement réveillé. J'ai alors pris conscience de la nouvelle réalité dans laquelle je vivait. Plus de mimes. Plus de carrousel féérique. Plus de chiens tous habillés et mouillés. De plus, j'ai découvert que ma license avait expirée il y avait de cela trois ans. Mes patrons n'avaient pas jugé nécessaire de le faire puisque cette activité n'était plus subventionné. Depuis cet évènement fatidique, je vis entre deux intersections. Khalid, un ami d'enfance, m'avait prévenu que ne pas aller à l'université pourrait me coûter chère. Il a beau dire, lui aussi il vit dans la rue maintenant. Il faut comprendre qu'un doctora en phylosophie mène un peu nul part. Bref, tout cela pour dire 
 que je regrette le temps où vivre dans l'insensé signifiait légèreté et gaité.
-
-{% include nouvelle-footer.html %}

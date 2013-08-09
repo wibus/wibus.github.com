@@ -1,9 +1,5 @@
-@import url(http://fonts.googleapis.com/css?family=Droid+Sans);
-
 /*--- Tag styles ---*/
 body {
-	margin:0;
-	padding:0;
 	background-color:#eee;
 	font-family: 'Droid Sans', serif;
 	font-weight: 300;
@@ -14,10 +10,6 @@ h1 { /* Story title */
 	text-align:center;
 	font-size:2em;
 	font-weight: bold;	
-}
-
-h2 { /* Chapter title */
-	
 }
 
 p { /* Paragraphs and dialogs */
@@ -38,12 +30,22 @@ footer {
 
 /*--- Divs styles ---*/
 
+#top-bar-bg {
+	position: absolute;
+	opacity: 1;
+}
+
 #page {
 	width:820px;
 	margin:60px auto;
 	padding:10px;
 	background-color:#fff;
 	border-radius:6px;
+}
+
+.page-center {
+	width:1080px;
+	margin:0 auto;
 }
 
 #maincontainer {
@@ -62,7 +64,3 @@ footer {
   top: 0;
   left: 0;
 }
-
-/** Category **/
-
-/*--- Classes ---*/

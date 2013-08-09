@@ -3,8 +3,6 @@ layout: nouvelle
 title: Les Tableaux chromatiques
 ---
 
-#{{ page.title }}
-
 Marc entra dans le resto et se laissa caresser par la musique ambiante, celle-la même qu'il avait perçue à travers la vitre. Ses harmonies teignaient la pièce d'un orange chaud, marqué de douces courbes rouges glissant les gens dans une atmosphère vive et festive. Entré en scène, Marc le dagueur n'avait plus qu'un objectif : toucher une femme au cœur et la ramener chez lui.
 
 Il prit place à une table près de la porte, commanda une bière de brasseur montréalais et réfléchie un instant à son plan de la soirée. Cela faisait plusieurs semaines qu'il n'était pas sorti se chercher une femme à consommer.  Autrefois, lorsqu'il en avait le temps, il vagabondait énormément de places louches en places chic pour rencontrer de jeunes femmes prêtes à risquée une nuit dans ses bras. Au passage, il en avait abîmées quelques unes, mais aussi fait découvrir à d'autres l'indescriptible sensation des amours éphémères. Celles qui surent vivre cet événement avec passion, candidement ou par sublimation,  furent ses préférées. Il dégusta leur dévouement si éperdument que par la suite, elles restèrent prisonnières d'un envoutement sensuel qui les empêcha de réintégrer le monde. Elles devinrent traumatisées comme constamment en sevrage d'une puissante source de joie volontairement tarie.
@@ -90,5 +88,3 @@ Après quelques instants de silence, la jeune femme, qui se douta de quelque cho
 &mdash; J'ai des amies qui vous connaissent.
 
 Marc alla régler ses dernières consommations. Il se trouvait bien chanceux que Betty ait déjà toutes payé les siennes. Chargés d'un besoins de quitter l'endroit au plus vite, le nouveau couple ne jetèrent que quelques regards autour d'eux en traversant la salle. C'était comme si à tout moment, un obstacle allait tombé devant eux et retardé la libération de leurs tensions. Ils franchirent la porte, lui en chemise et elle en robe. Aucun d'eux n'avait pressenti que l'air nocturne serait si froid ce soir là. Marc pris la main de sa complice pour la dirigée dans les rues et du même coup, initier une proximité corporelle qui grandissait plus la distance de leur rencontre augmentait. Un instant, pris du remord de se livrer trop rapidement, il s'arrêta nette et regarda droit dans le yeux de Betty. Il y lut une rage sexuelle qu'elle contenait et qu'il nourrissait depuis leur rencontre. Il sentit que le meilleur moyen de la préservée dans cet état jusqu'à chez lui était de la laisser mener la marche. Il se tenait juste derrière elle, la suivant de quelques centimètres, et une légère bifurcation de sa part la faisait bouger à l'endroit voulu./*A reregarder*/ Il traquait sa bête dans un lieu trop bien connu.  Après le coin, il n'y avait plus d'issue et il le savait que trop bien.
-
-{% include nouvelle-footer.html %}
