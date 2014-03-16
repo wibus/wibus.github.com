@@ -10,14 +10,14 @@
 
 #page-inner {
 	width: 100%;
-	padding: 36px;
+	padding: 36px 0;
 	display:inline-block;
 	background-color:white;
 	border-radius: 5px;
 }
 
 .page-center {
-	width:1080px;
+	width:920px;
 	margin:0 auto;
 }
 

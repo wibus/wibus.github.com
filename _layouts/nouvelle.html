@@ -5,6 +5,7 @@
 		<link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
 		<link rel=stylesheet href="/css/reset.css"/>
 		<link rel=stylesheet href="/css/navbar.css"/>
+		<link rel=stylesheet href="/css/page.css"/>
 		<link rel=stylesheet href="/css/nouvelle.css"/>
 		<title>William Bussière - {{ page.title }}</title>
 		<!--script language="javaScript" src="/js/right-click-disabled.js"></script-->
@@ -13,10 +14,12 @@
 		{% include navbar.html %}
 		<img id="full-screen-background-image" src="/img/backgrounds/{{ page.title }}.jpg" />
 		<div id="page">
-			<div id="maincontainer">
-				<h1>{{ page.title }}</h1>
-				{{ content }}
-				{% include nouvelle-footer.html %}
+			<div class="page-center">
+				<div id="page-inner">
+					<h1>{{ page.title }}</h1>
+					{{ content }}
+					<footer>William Bussière 2012-2014</footer>
+				</div>
 			</div>
 		</div>		
 	</body>

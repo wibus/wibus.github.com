@@ -2,11 +2,11 @@
 body {
 	background-color:#eee;
 	font-family: 'Droid Sans', serif;
-	font-weight: 300;
+	font-weight: 400;
 }
 
 h1 { /* Story title */
-	margin:80px 0px 40px;
+	margin:80px 0 40px;
 	text-align:center;
 	font-size:2em;
 	font-weight: bold;	
@@ -30,28 +30,8 @@ footer {
 
 /*--- Divs styles ---*/
 
-#top-bar-bg {
-	position: absolute;
-	opacity: 1;
-}
-
 #page {
-	width:820px;
-	margin:60px auto;
-	padding:10px;
-	background-color:#fff;
-	border-radius:6px;
-}
-
-.page-center {
-	width:1080px;
-	margin:0 auto;
-}
-
-#maincontainer {
-	width:100%;
-	margin:0 auto;
-	padding:0;
+	margin-bottom: 900px;
 }
 
 #full-screen-background-image {
