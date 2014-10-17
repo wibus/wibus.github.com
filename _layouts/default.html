@@ -11,14 +11,17 @@
 		<title>{{ page.title }}</title>
 	</head>
 	<body>
+		<img id="full-screen-background-image" src="/img/backgrounds/{{ page.background }}" />
 		{% include navbar.html %}
-		<div id="page">
-			<div class="page-center">
-				<div id="page-inner">
-					{{ content }}
-				</div>
-			</div>
-		</div>
-		{% include footer.html %}
+        <div id="page">
+            <div class="page-center">
+                <div id="paper-sheet">
+                    <div id="paper-padding">
+                        {{ content }}
+                        {% include footer.html %}
+                    </div>
+                </div>
+            </div>
+        </div>
 	</body>
 </html>

@@ -1,6 +1,20 @@
 @charset "utf-8";
 /* CSS Document */
 
+body {
+  background-color: #334;
+}
+
+#full-screen-background-image {
+  z-index: -999;
+  min-height: 100%;
+  min-width: 1080px;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
 
 #page {
 	min-height: 750px;
@@ -8,12 +22,15 @@
 	padding-bottom: 24px;
 }
 
-#page-inner {
-	width: 100%;
-	padding: 36px 0;
+#paper-sheet {
+  width: 100%;
 	display:inline-block;
 	background-color:white;
 	border-radius: 5px;
+}
+
+#paper-padding {
+  padding: 36px;
 }
 
 .page-center {
