@@ -3,25 +3,27 @@
 	<head>
 		<meta charset="UTF-8">
 		<link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
-		<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700' rel='stylesheet' type='text/css'>
 		<link rel=stylesheet href="/css/reset.css"/>
 		<link rel=stylesheet href="/css/navbar.css"/>
 		<link rel=stylesheet href="/css/page.css"/>
 		<link rel=stylesheet href="/css/footer.css"/>
-		<title>{{ page.title }}</title>
+		<link rel=stylesheet href="/css/nouvelle.css"/>
+		<title>William Bussière - {{ page.title }}</title>
+		<!--script language="javaScript" src="/js/right-click-disabled.js"></script-->
 	</head>
-	<body>
-		<img id="full-screen-background-image" src="/img/backgrounds/DefaultBackground.jpg" />
+	<body ondragstart="return false" onselectstart="return false"> <!-- Disabling copy paste -->
+		<img id="full-screen-background-image" src="/img/backgrounds/{{ page.title }}.jpg" />
 		{% include navbar.html %}
-        <div id="page">
+		<div id="page">
             <div class="page-center">
                 <div id="paper-sheet">
                     <div id="paper-padding">
+                        <h1>{{ page.title }}</h1>
                         {{ content }}
                         {% include footer.html %}
                     </div>
-                </div>
-            </div>
-        </div>
+				</div>
+			</div>
+		</div>
 	</body>
 </html>

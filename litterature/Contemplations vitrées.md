@@ -1,6 +1,5 @@
 ---
-layout: default
-background: ContemplationsVitrees.jpg
+layout: nouvelle
 title: Contemplations vitrées
 ---
 
