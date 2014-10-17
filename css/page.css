@@ -5,6 +5,11 @@ body {
   background-color: #334;
 }
 
+h1 {
+	text-align: center;
+	padding-top: 1em;
+}
+
 #full-screen-background-image {
   z-index: -999;
   min-height: 100%;
@@ -30,7 +35,7 @@ body {
 }
 
 #paper-padding {
-  padding: 36px;
+  padding: 72px;
 }
 
 .page-center {
@@ -47,8 +52,8 @@ body {
 .column-inner{
 	width:auto;
 	height:auto;
-	margin:0 10px;
-	padding:0 10px;
+	margin:0;
+	padding:0;
 }
 
 .horizontally-centered {
@@ -82,11 +87,6 @@ body {
   display: inline-block;
   content: '';
   width: 100%;
-}
-
-.text-title{
-	text-align: center;
-	padding-top: 1em;
 }
 
 .oeuvre {

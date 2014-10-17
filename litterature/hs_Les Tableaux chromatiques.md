@@ -1,6 +1,7 @@
 ---
 layout: nouvelle
 title: Les Tableaux chromatiques
+date: Février 2011
 ---
 
 Marc entra dans le resto et se laissa caresser par la musique ambiante, celle-la même qu'il avait perçue à travers la vitre. Ses harmonies teignaient la pièce d'un orange chaud, marqué de douces courbes rouges glissant les gens dans une atmosphère vive et festive. Entré en scène, Marc le dagueur n'avait plus qu'un objectif : toucher une femme au cœur et la ramener chez lui.
@@ -24,7 +25,7 @@ Il la trouvait définitivement délicieuse placée ainsi. Entre la banquette rem
 &mdash; Umm... vous m'excuserez, mais mon mari revient des toilettes. Vous voulez bien lui redonner sa place.
 
 &mdash; Oui! Il n'y a pas de problème. On se revoit sur la piste de danse...
-        
+
 Décidément, cette conversation lui donna chaud. Il se précipita dans la foule question de rester inconnu aux yeux du trouble fête et que sa bonne femme l'oublie. Puis, suite à deux  blondes sans substance et une rousse avec trop de corps, mais pas d'esprit, il se dirigea vers ce plancher, où tous les gens, même les plus discordants, bougent au contact des ondes aériennes comme des corps en résonances. Tout était d'une chaude brutalité autour de lui. Les lampes accrochées au murs lui balançaient leurs rayons sur la tête, les danseurs exaltés lui brulaient le corps et la musique fortement rythmée échauffait ses pieds. La bière, par dessus tout, amplifiait le sentiment au point qu'il dut s'asseoir un moment avant de recommencer l'exercice.
 
 De nouveau en plein remous, il se laissa porter à travers la pièce en glissant contre les flots, comme une balle à la rivière, sans prise ni repères. Avançant de la sorte, il croyait pouvoir échouer sur un trésor, touchant au passage à de belles pierres polies ou même taillées. Généralement, il ne perdait pas son temps avec ces cailloux. Ce qu'il voulait, c'était ces bijoux qui regroupent tout l'éclat des belles pierres en un agencement symétrique et provocant. Sur son trajet, il s'écrasa quelques fois sur des filles moches, d'autres fois sur des blondes insignifiantes, une fois sur un gros mâle et il détala sur le coup. Finalement, une jeune femme s'offrit à lui. Elle était pratiquement  adolescente en fait, vu son âge voisin du minimum requis dans ces lieux. Ils dansèrent quelques instants, collés comme des mouches à un ruban, en faisant abstraction des gens environnant à la manière d'un jeune couple n'ayant d'autre place pour communier. Elle sentait le lilas, ce qui dissonait éminemment avec la teinte orangé de la pièce, mais il ne s'y rebuta point. Considérant l'exhalatrice comme étant bien plus que potable, il alla jusqu'à se convaincre que cela dynamisait l'ambiance. Sur le parcours de leur danse, il se retrouva derrière elle. Il n'y avait pas de meilleurs endroits pour concevoir la fermeté  de son corps. De ses seins à ses mollets, elle était douée d'une magnifique prise en main dont Marc abusait, jouissant à tout moment d'une liberté et d'une volonté grandissantes. De sa main droite, il suivit l'arc de son ventre en direction descendante et de l'autre, alla cueillir son sein gauche. La fille se laissa prendre tel un fruit mûr, prêt à tout quitter pour ce tombeur. Une fois capturée, Marc dirigeais tous ses mouvements. De ses pas swingués à ses frémissements de joie, il administrait le tout dans le but d'une prise garantie. Sa main était sur son cœur, il ne restait plus qu'à insérer la lame.
@@ -32,8 +33,8 @@ De nouveau en plein remous, il se laissa porter à travers la pièce en glissant
 &mdash; Excuse moi, mais je doit allé au toilette. Tu viens m'attendre?
 
 &mdash; Eh... oui. Si tu veux.
-        
-Elle l'emmena aux portes des toilettes en gamine, lui tirant le bras en se faufilant entres les tubes gigotants, et lui affirma : «Ce ne sera pas long». 
+
+Elle l'emmena aux portes des toilettes en gamine, lui tirant le bras en se faufilant entres les tubes gigotants, et lui affirma : «Ce ne sera pas long».
 
 Dix minutes plus tard, il était toujours devant la porte, inspectant de plus en plus confusément l'immobilité celle-ci. Est-ce que sa proie s'était évadée? Était-elle retenue par un excès d'alcool? S'il avait pu s'introduire dans les toilettes, il l'aurait vue assise sur le comptoir, une épaule nue et la bouche tendre, se faisant palper des mains et des lèvres par la rousse qu'il avait rencontrée un peu plus tôt : beaucoup de corps, mais pas d'esprit. Impatient de ramener un conquête chez lui, Marc se replongea dans la foule, sûr d'y trouver réconfort. Après quelques cuisses touchées au passage et quelques flancs adroitement soutenues, un fille vraiment moche lui tomba dans les bras, comme une merde d'oiseau larguée du ciel. Même un vendeur de voiture usagées n'aurait su comment faire croire qu'elle n'était pas accidentée. Le dragueur ne perdit pas plus de seize mesures avant de la renvoyée dans les bras d'un autre comme plusieurs avant lui. Suite à ces rejets, elle crut que tout les hommes voulaient la faire valser et qu'ils se l'arrachaient les uns aux autres. Malheureusement pour elle, lorsqu'elle fut jetée dans le bras du doorman, celui-ci la mit à la porte craignant qu'elle ne fasse fuir certains clients.
 
@@ -65,7 +66,7 @@ Après quelques instants de silence, la jeune femme, qui se douta de quelque cho
 
 &mdash; Non, et vous?
 
-&mdash; Non, et je n'en voudrait pas, soupira-t-elle. J'aime bien garder ceux de mes amis quelques heures, mais en avoir à soi, c'est trop d'ouvrage. Je ne voudrait pas sacrifier mes soirées non plus. 
+&mdash; Non, et je n'en voudrait pas, soupira-t-elle. J'aime bien garder ceux de mes amis quelques heures, mais en avoir à soi, c'est trop d'ouvrage. Je ne voudrait pas sacrifier mes soirées non plus.
 
 &mdash; À quoi bon avoir des soirées libres si on les passent tranquillement.
 
@@ -73,7 +74,7 @@ Après quelques instants de silence, la jeune femme, qui se douta de quelque cho
 
 &mdash; Eh bien, c'est la première fois que je vous rencontre.
 
-&mdash; Ça c'est parce qu'on ne fréquente pas les même endroits. Moi je vous ai déjà vu, mais malheureusement , je crois que vous en aviez déjà trouvé une à votre goût. 
+&mdash; Ça c'est parce qu'on ne fréquente pas les même endroits. Moi je vous ai déjà vu, mais malheureusement , je crois que vous en aviez déjà trouvé une à votre goût.
 
 &mdash; Alors, si vous n'aimez pas les soirées tranquilles, venez chez-moi.
 

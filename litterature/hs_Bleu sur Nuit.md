@@ -1,6 +1,7 @@
 ---
 layout: nouvelle
 title: Bleu sur Nuit
+date: Janvier 2011
 ---
 
 Une petite berline rouge qui roulait sous les vents, sillonait ces jeunes montagnes en bordure du continent. Elle abritait un jeune couple, vieux d'un été, qui, après avoir passé tout l'automne dans leur tête, avait hâte de braver l'hiver en une fête. Ils étaient fin prêts, les skis dans le coffre et les gants jusqu'aux poignets, à entreprendre la lune de miel rêvée qu'ils avaient échafaudée entre deux cours d'université. Tout allait pour le mieux, mis à part cette prose rhytmée qui leur donnait des bouffées de chaleur.

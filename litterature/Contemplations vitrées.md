@@ -1,6 +1,7 @@
 ---
 layout: nouvelle
 title: Contemplations vitrées
+date: Février 2014
 ---
 
 La tête enfoncée dans l’oreiller et le corps tout tordu d’un effort mental insurmontable, j’ouvre les yeux. Des fois, le travail commencé en journée m’habite jusque dans la nuit et s’obstine à étouffer mes rêves. Essayer de dormir ne sert à rien dans ce cas; je fais aussi bien de me lever et de passer quelque temps au rez-de-chaussée pour marcher en rond où pour réfléchir sur le divan. En même temps, la lune devrait être grosse ce soir et la neige est neuve, toute blanche. Je sors des couvertures et commence à monter les marches. Une fois la porte du sous-sol ouverte, je remarque que les bandes et les carreaux d’or plaqués un peu partout sur les murs et les meubles du salon ont disparu. Le ciel était sublime aujourd’hui. Pas un nuage du matin au soir et le soleil qui était aussi vif qu’à la fonte des neiges. Évidemment, je pouvais pas résister à l’envie d’observer les effets de lumière qui se manifestaient partout aux alentours. Les rayons qui divergeaient de façon aberrante une fois entrés par la fenêtre de la porte d’entrée. Les ombres incompréhensibles qui tombaient de la table basse. La lumière aussi qui pénétrait la neige folle de la cour pour donner l’impression de ouate. Le soleil produisait des effets optiques, mais aussi psychologiques, très agréables. Je ne m’étais pas senti aussi bien depuis tellement longtemps.

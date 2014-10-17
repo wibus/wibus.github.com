@@ -2,9 +2,8 @@
 /* CSS Document */
 
 footer {
-  width: 90%;
-	margin:80px 0 40px;
+	margin:80px 26px;
   display: inline-block;
-	text-align:right;
+  float: right;
 	color: #444;
 }

@@ -1,6 +1,7 @@
 ---
 layout: nouvelle
 title: Le Fol Admirateur
+date: Février 2011
 ---
 
 Il se tenait droit, le pouls croissant, immobiliser par le potentiel catastrophique. Devant son corps siégeait une plante au bord de la fenêtre. Elle scrutait la vitre à la recherche d'un rayon de soleil, étant naturellement insensible à la lumière artificielle. Cette palmacées était visiblement soulagée de voir son compagnon de retour pour la sauvée.
