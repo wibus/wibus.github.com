@@ -24,5 +24,13 @@ p { /* Paragraphs and dialogs */
 /*--- Divs styles ---*/
 
 #page {
-	margin-bottom: 900px;
+   margin-bottom: 900px;
+}
+
+#paper-padding {
+   padding: 72px;
+}
+
+.page-center {
+   width:920px;
 }
