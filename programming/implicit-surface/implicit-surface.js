@@ -1,5 +1,4 @@
 (function() {
-
     var mesh_view = document.getElementById("mesh-view");
     var mesh_ctx = mesh_view.getContext("2d");
     var raster_view = document.getElementById("raster-view");
@@ -15,6 +14,7 @@
     var distance_output = document.getElementById("distance-output");
 
     var mesh = [];
+    var lines = [];
     var raster = [];
     var dist = [];
 
@@ -31,31 +31,50 @@
     var getNeighbors = function(p) {
         var neighbors = [];
 
-        if(p.x !== 0)
-        {
-            neighbors.push({pos:{x:p.x-1, y:p.y}, dist: sideDist});
+        if(p.x !== 0) {
+            neighbors.push({x:p.x-1, y:p.y});
             if(p.y !== 0)
-                neighbors.push({pos:{x:p.x-1, y:p.y-1}, dist: diagDist});
+                neighbors.push({x:p.x-1, y:p.y-1});
             if(p.y !== imgHeight-1)
-                neighbors.push({pos:{x:p.x-1, y:p.y+1}, dist: diagDist});
+                neighbors.push({x:p.x-1, y:p.y+1});
         }
 
-        if(p.x !== imgWidth-1)
-        {
-            neighbors.push({pos:{x:p.x+1, y:p.y}, dist: sideDist});
+        if(p.x !== imgWidth-1) {
+            neighbors.push({x:p.x+1, y:p.y});
             if(p.y !== 0)
-                neighbors.push({pos:{x:p.x+1, y:p.y-1}, dist: diagDist});
+                neighbors.push({x:p.x+1, y:p.y-1});
             if(p.y !== imgHeight-1)
-                neighbors.push({pos:{x:p.x+1, y:p.y+1}, dist: diagDist});
+                neighbors.push({x:p.x+1, y:p.y+1});
         }
 
         if(p.y !== 0)
-            neighbors.push({pos:{x:p.x, y:p.y-1}, dist: sideDist});
+            neighbors.push({x:p.x, y:p.y-1});
         if(p.y !== imgHeight-1)
-            neighbors.push({pos:{x:p.x, y:p.y+1}, dist: sideDist});
+            neighbors.push({x:p.x, y:p.y+1});
 
         return neighbors;
     }
+    
+    var ptLineDistance = function (pt, ln) {
+        var begpt = { x: pt.x-ln.beg.x, y: pt.y-ln.beg.y };
+        var dir = { x: ln.end.x-ln.beg.x, y: ln.end.y-ln.beg.y};
+        var dot = begpt.x*dir.x + begpt.y*dir.y;
+        
+        if(dot <= 0) {
+            return Math.sqrt(begpt.x*begpt.x + begpt.y*begpt.y);
+        }
+        
+        var dirLen2 = dir.x*dir.x + dir.y*dir.y;
+        
+        if(dot >= dirLen2) {
+            var endpt = { x: pt.x-ln.end.x, y: pt.y-ln.end.y };
+            return Math.sqrt(endpt.x*endpt.x + endpt.y*endpt.y);
+        }
+        
+        var proj = {x: dir.x*dot/dirLen2, y: dir.y*dot/dirLen2};
+        var perp = {x: begpt.x - proj.x, y: begpt.y - proj.y};
+        return Math.sqrt(perp.x*perp.x + perp.y*perp.y);
+    };
 
     var computeBaseSurface = function() {
 
@@ -80,11 +99,11 @@
             }
         }
         else if(mesh_select.value === "box") {
-            mesh.push({x: imgWidth/3, y:imgHeight/3});
-            mesh.push({x: imgWidth*2/3, y:imgHeight/3});
             mesh.push({x: imgWidth*2/3, y:imgHeight*2/3});
             mesh.push({x: imgWidth/3, y:imgHeight*2/3});
             mesh.push({x: imgWidth/3, y:imgHeight/3});
+            mesh.push({x: imgWidth*2/3, y:imgHeight/3});
+            mesh.push({x: imgWidth*2/3, y:imgHeight*2/3});
         }
         else if(mesh_select.value === "lambda") {
             // Head
@@ -105,7 +124,13 @@
             // Closing the loop
             mesh.push({x: imgWidth * 7/20, y:imgHeight * 6/20});
         }
-
+        
+        // Build line set
+        lines = [];
+        var lineCount = mesh.length-1;
+        for(var l=0; l<lineCount; ++l) {
+            lines.push({beg: mesh[l], end: mesh[l+1]});
+        }
 
         // Draw mesh_view
         mesh_view.width = mesh_view.offsetWidth;
@@ -140,14 +165,11 @@
         var img = raster_ctx.getImageData(
             0, 0, imgWidth, imgHeight);
         for(var y=0; y<imgHeight; ++y) {
-            var raster_line = [];
-
+            raster.push([]);
             for(var x=0; x<imgWidth; ++x) {
                 var idx = (y*imgWidth + x) * 4;
-                raster_line.push(img.data[idx+3] > 115 ? 0 : 1);
+                raster[y].push(img.data[idx+3] > 115 ? 0 : 1);
             }
-
-            raster.push(raster_line);
         }
 
         // Find borders
@@ -198,20 +220,31 @@
         }
     };
 
-    var computDistanceField = function() {
+    var computeDistanceField = function() {
 
         // Reset distance field
         dist = [];
+        
+        var lineCount = lines.length;
+        
         for(var y=0; y<imgHeight; ++y) {
-            var dist_line = [];
+            dist.push([]);
+            
             for(var x=0; x<imgWidth; ++x) {
-                var rast = raster[y][x];
-                if(rast === 0)
-                    dist_line.push(0);
-                else
-                    dist_line.push(Infinity);
+                var minLine = -1;
+                var minDist = Infinity;
+                if(raster[y][x] === 0) {
+                    for(var l=0; l<lineCount; ++l) {
+                        var perp = ptLineDistance({x:x, y:y}, lines[l]);
+                        if(perp < minDist) {
+                            minDist = perp;
+                            minLine = l;
+                        }
+                    }
+                }
+                
+                dist[y].push({dist: minDist, line: minLine});
             }
-            dist.push(dist_line);
         }
 
         // Setup grid traversal structures
@@ -270,27 +303,35 @@
             }
         }
 
-
         var posCount = positions.length;
         for(var d=0; d<posCount; ++d) {
 
             pos = positions[d];
-
+            
+            var cell = dist[pos.y][pos.x];
+            var minLine = cell.line;
+            var minDist = cell.dist;
             var neighbors = getNeighbors(pos);
-            var neiPos = neighbors[0].pos;
-            var relDist = neighbors[0].dist;
-            var minDist = dist[neiPos.y][neiPos.x] + relDist;
-            for(var n=1; n<neighbors.length; ++n) {
-                neiPos = neighbors[n].pos;
-                relDist = neighbors[n].dist;
-                var neiDist = dist[neiPos.y][neiPos.x] + relDist;
-                if(neiDist < minDist) {
-                    minDist = neiDist;
+            var neiCount = neighbors.length;
+            
+            for(var n=0; n<neiCount; ++n) {
+                var nei = neighbors[n];
+                var neiDist = dist[nei.y][nei.x];
+                var neiLineId = neiDist.line;
+                if(neiLineId !== -1 && neiLineId !== minLine) {
+                    var neiLine = lines[neiLineId];
+                    var cellDist = ptLineDistance(pos, neiLine);
+                    if(cellDist < minDist) {
+                        minDist = cellDist;
+                        minLine = neiLineId;
+                    }
                 }
             }
-
-            if(minDist < dist[pos.y][pos.x])
-                dist[pos.y][pos.x] = minDist;
+            
+            if(minDist < dist[pos.y][pos.x].dist) {
+                cell.dist = minDist;
+                cell.line = minLine;
+            }
         }
 
         var currDist = 0;
@@ -299,16 +340,15 @@
         var absMax = 0;
         for(y=0; y<imgHeight; ++y) {
             for(x=0; x<imgWidth; ++x) {
-
                 rast = raster[y][x];
-                currDist = dist[y][x] * rast;
-                dist[y][x] = currDist;
+                currDist = dist[y][x].dist * rast;
+                dist[y][x].dist = currDist;
 
                 globalMin = Math.min(globalMin, currDist);
                 globalMax = Math.max(globalMax, currDist);
                 absMax = Math.max(absMax, Math.abs(currDist));
             }
-        }
+        }        
 
         // Update slider min max and value
         distance_input.min = Math.floor(globalMin);
@@ -357,7 +397,7 @@
         yRatio = dist_view.height / imgHeight;
         for(y=0; y<imgHeight; ++y) {
             for(x=0; x<imgWidth; ++x) {
-                dist_ctx.fillStyle = distToRgb(dist[y][x]);
+                dist_ctx.fillStyle = distToRgb(dist[y][x].dist);
                 dist_ctx.fillRect(x*xRatio, y*yRatio, xRatio, yRatio);
             }
         }
@@ -366,8 +406,8 @@
     var updateResultSurface = function() {
 
         var stroke = function(x0, y0, x1, y1) {
-            result_ctx.moveTo((x0+0.5)*xRatio, (y0+0.5)*yRatio);
-            result_ctx.lineTo((x1+0.5)*xRatio, (y1+0.5)*yRatio);
+            result_ctx.moveTo((x0)*xRatio, (y0)*yRatio);
+            result_ctx.lineTo((x1)*xRatio, (y1)*yRatio);
             result_ctx.lineWidth = 1.5;
             result_ctx.stroke();
         };
@@ -384,10 +424,10 @@
         for(var y=0; y<imgHeight-1; ++y) {
             for(var x=0; x<imgWidth-1; ++x) {
 
-                var curr = dist[y][x] < distance;
-                var right = dist[y][x+1] < distance;
-                var top = dist[y+1][x] < distance;
-                var tplf = dist[y+1][x+1] < distance;
+                var curr = dist[y][x].dist < distance;
+                var right = dist[y][x+1].dist < distance;
+                var top = dist[y+1][x].dist < distance;
+                var tplf = dist[y+1][x+1].dist < distance;
 
                 var cell = 0;
 
@@ -439,10 +479,10 @@
                 if(cell === 0)
                     continue;
 
-                var orig  = dist[y][x] - distance;
-                var side = dist[y][x+1] - distance;
-                var above = dist[y+1][x] - distance;
-                var diag  = dist[y+1][x+1] - distance;
+                var orig  = dist[y][x].dist - distance;
+                var side = dist[y][x+1].dist - distance;
+                var above = dist[y+1][x].dist - distance;
+                var diag  = dist[y+1][x+1].dist - distance;
 
                 var mbt = (-orig)  / (side - orig);
                 var mlf = (-orig)  / (above - orig);
@@ -474,7 +514,7 @@
     var recompute = function() {
         computeBaseSurface();
         computeRasterSurface();
-        computDistanceField();
+        computeDistanceField();
         updateResultSurface();
     };
 
