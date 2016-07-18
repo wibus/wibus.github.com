@@ -10,46 +10,86 @@
   height: 720px;
   width: 100%;
 	display:inline-block;
-	background-color:white;
+	background-color:black;
 	border-radius:0;
 }
 
 
+
 /*--- Tag styles ---*/
 body {
-	background-color:#eee;
-  font-family: 'Droid Serif', serif;
+    font-family: 'Droid Serif', serif;
 	font-weight: 400;
+    color: cornsilk;
+    font-size: 13pt;
 }
 
 h1 { /* Story title */
-	padding-top:35px;
-	margin-top:0px;
-	margin-bottom:0px;
+	/*padding-top:210px;/*First titles*/
+	/*padding-top:150px;/*Pro/Epi-logues*/
+	padding-top:20px;/*Last titles*/
+	padding-bottom:0;
+	margin-top:0;
+	margin-bottom:0;
 	text-align:center;
-	font-size:2.5em;
-	font-size:2.5em;
-  text-decoration: underline;
+	font-size:4em;
+	font-size:4em;
+    text-decoration: underline;
 }
 
 h2 { /* Story title */
-	margin-top:10px;
-	margin-bottom:30px;
+	padding-top:10px;
+	padding-bottom:12px;
+	margin-top:0;
+	margin-bottom:0;
 	text-align:center;
-	font-size:1.5em;
+	font-size:2.5em;
 }
 
-p { /* Paragraphs and dialogs */
+h3 { /* Names */
+	padding-top:0;
+	padding-bottom:0;
+	margin-top:0;
+	margin-bottom:0;
+	text-align:center;
+	font-size:2.7em;
+    font-style: italic;
+}
+
+ /* Paragraphs and dialogs */
+/* White 
+p {
 	margin:0;
-	padding: 0 150px 1em;
-	text-indent:2em;
-	text-align: justify;
-	font-size:1.60em;
+	padding: 0 150px 0.5em;
+	text-indent:2.0em;
+	text-align:justify;
+	font-size:1.7em;
 	font-weight: normal;
 }
+/**/
+/* Black */
+p {
+	margin:0;
+	padding: 0 150px 0.5em;
+	text-indent:0em;
+	text-align:center;
+	font-size:1.5em;
+	font-weight: normal;
+}
+/**/
 
 footer {
 	margin: 40px 150px 40px;
+    visibility: hidden;
+}
+
+em {
+    font-style: italic;
+	font-size:1.5em;
+}
+
+u {    
+	font-size:0.80em;
 }
 
 
@@ -65,4 +105,20 @@ footer {
 
 .page-center {
    width:1280px;
+}
+
+.page-column {
+    padding-top: 72px;
+	width:50%;
+	height:auto;
+	float: left;
+    font-size: 160%;
+    text-align: center;
+}
+
+.page-text {
+    padding-top: 80px;
+    width:100%;
+    text-align: center;
+    font-size: 140%;    
 }
