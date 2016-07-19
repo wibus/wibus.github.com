@@ -7,10 +7,10 @@
 }
 
 #paper-sheet {
-  height: 720px;
+  height: 1080px;
   width: 100%;
 	display:inline-block;
-	background-color:black;
+	background-color:white;
 	border-radius:0;
 }
 
@@ -20,14 +20,14 @@
 body {
     font-family: 'Droid Serif', serif;
 	font-weight: 400;
-    color: cornsilk;
-    font-size: 13pt;
+    color: black;
+    font-size: 25.5px;
 }
 
 h1 { /* Story title */
-	/*padding-top:210px;/*First titles*/
-	/*padding-top:150px;/*Pro/Epi-logues*/
-	padding-top:20px;/*Last titles*/
+	padding-top:3.08825em;/*First titles*/
+	/*padding-top:2.206em;/*Pro/Epi-logues*/
+	/*padding-top:0.294em;/*Last titles*/
 	padding-bottom:0;
 	margin-top:0;
 	margin-bottom:0;
@@ -38,8 +38,8 @@ h1 { /* Story title */
 }
 
 h2 { /* Story title */
-	padding-top:10px;
-	padding-bottom:12px;
+	padding-top:0.2352em;
+	padding-bottom:0.2824em;
 	margin-top:0;
 	margin-bottom:0;
 	text-align:center;
@@ -57,29 +57,28 @@ h3 { /* Names */
 }
 
  /* Paragraphs and dialogs */
-/* White 
+/* White */
 p {
 	margin:0;
-	padding: 0 150px 0.5em;
-	text-indent:2.0em;
+	padding: 0 5.190588235em 0.5em;
+	text-indent:3.5em;
 	text-align:justify;
 	font-size:1.7em;
 	font-weight: normal;
 }
 /**/
-/* Black */
+/* Black 
 p {
 	margin:0;
-	padding: 0 150px 0.5em;
-	text-indent:0em;
-	text-align:center;
-	font-size:1.5em;
+	padding: 0 5.190588235em 0.5em;
+	text-indent:2.2em;
+	text-align:justify;
+	font-size:1.7em;
 	font-weight: normal;
 }
 /**/
 
 footer {
-	margin: 40px 150px 40px;
     visibility: hidden;
 }
 
@@ -100,15 +99,15 @@ u {
 }
 
 #paper-padding {
-   padding: 72px;
+   padding: 4.235em;
 }
 
 .page-center {
-   width:1280px;
+   width:1920px;
 }
 
 .page-column {
-    padding-top: 72px;
+    padding-top: 3.67625em;
 	width:50%;
 	height:auto;
 	float: left;
@@ -117,7 +116,7 @@ u {
 }
 
 .page-text {
-    padding-top: 80px;
+    padding-top: 3.361428571em;
     width:100%;
     text-align: center;
     font-size: 140%;    
