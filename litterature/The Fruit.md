@@ -29,6 +29,19 @@ style: /litterature/The Fruit.css
 <!-- -->
 
 
+<!-- DESCRIPTIVE -->
+<p><span class="exth">Experimental Theatre</span> is a C++ simulation framework. This animation showcases its ability to render combinations of analytical surfaces through path tracing.</p>
+
+
+<br>
+<div class="descr-center">
+    <span class="exth">Experimental Theatre</span> is single use<br>
+    <span>The Fruit</span> will be its unique production
+</div>
+
+<!-- -->
+
+
 <!-- PROLOGUE 
 <p>...lorsque Geoffroy figea, interloqué par le tribalisme qui émanait des peintures, il aperçu sa douce moitié rousse et pulpeuse qui l'invitait à la suivre. Elle venait d'installer son oeuvre et s'impatientait à l'idée de voir enfin la réaction de son fiancé. Malgré la fébrilité de sa douce moitié, Geoffroy prendra tout de même le temps d'admirer chacune des oeuvres qui se trouveront sur son passage...</p>
 <!-- -->
@@ -84,7 +97,7 @@ by Constance Morel
 <!-- -->
 
 
-<!-- MADE WITH -->
+<!-- MADE WITH
 
 ##Made with
 

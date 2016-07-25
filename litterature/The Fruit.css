@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700);
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400);
 
 #page {
 	min-height: 750px;
@@ -25,8 +26,8 @@ body {
 }
 
 h1 { /* Story title */
-	padding-top:3.08825em;/*First titles*/
-	/*padding-top:2.206em;/*Pro/Epi-logues*/
+	/*padding-top:3.08825em;/*First titles*/
+	padding-top:2.206em;/*Pro/Epi-logues*/
 	/*padding-top:0.294em;/*Last titles*/
 	padding-bottom:0;
 	margin-top:0;
@@ -65,6 +66,7 @@ p {
 	text-align:justify;
 	font-size:1.7em;
 	font-weight: normal;
+    font-family: 'Raleway', sans-serif;
 }
 /**/
 /* Black 
@@ -75,6 +77,7 @@ p {
 	text-align:justify;
 	font-size:1.7em;
 	font-weight: normal;
+    font-family: 'Raleway', sans-serif;
 }
 /**/
 
@@ -89,6 +92,10 @@ em {
 
 u {    
 	font-size:0.80em;
+}
+
+span {
+    font-style : italic;
 }
 
 
@@ -120,4 +127,17 @@ u {
     width:100%;
     text-align: center;
     font-size: 140%;    
+}
+
+.descr-center {
+    font-size: 1.7em;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+.exth {
+    font-family: 'Droid Serif', serif;
+    font-style: normal;
 }
