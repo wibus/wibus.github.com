@@ -10,6 +10,10 @@ h1 {
 	padding-top: 1em;
 }
 
+em {
+    font-weight: 700;
+}
+
 #full-screen-background-image {
   z-index: -999;
   min-height: 100%;
