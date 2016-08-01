@@ -43,7 +43,7 @@ style: /litterature/The Fruit.css
 
 
 <!-- PROLOGUE 
-<p>...lorsque Geoffroy figea, interloqué par le tribalisme qui émanait des peintures, il aperçu sa douce moitié rousse et pulpeuse qui l'invitait à la suivre. Elle venait d'installer son oeuvre et s'impatientait à l'idée de voir enfin la réaction de son fiancé. Malgré la fébrilité de sa douce moitié, Geoffroy prendra tout de même le temps d'admirer chacune des oeuvres qui se trouveront sur son passage...</p>
+<p>Lorsque Geoffroy figea, interloqué par le tribalisme qui émanait des peintures, il aperçu sa douce moitié rousse et pulpeuse qui l'invitait à la suivre. Elle venait d'installer son oeuvre et s'impatientait à l'idée de voir enfin la réaction de son fiancé. Malgré la fébrilité de sa douce moitié, Geoffroy prendra tout de même le temps d'admirer chacune des oeuvres qui se trouveront sur son passage...</p>
 <!-- -->
 
 <!-- EPILOGUE

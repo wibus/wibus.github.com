@@ -2,11 +2,49 @@
 layout: default
 title: Experimental Theatre
 ---
+#The Fruit : A Moving Picture
+
+
+<div style="display: inline-block">
+<div class="column-half">
+<div class="column-inner" markdown="1">
+
+## Synopsis
+
+### Prologue
+
+Lorsque Geoffroy figea, interloqué par le tribalisme qui émanait des peintures, il aperçu sa douce moitié rousse et pulpeuse l'invitant à la suivre. Elle venait d'installer son oeuvre et s'impatientait à l'idée de voir enfin la réaction de son fiancé. Malgré la fébrilité de sa douce moitié, Geoffroy prendra tout de même le temps d'admirer chacune des oeuvres qui se trouveront sur son passage...
+
+
+### Épilogue
+
+...le symbole exprimé par ce cadeau était bien clair, mais ne fit qu'assombrir l'humeur de Geoffroy. Bien qu'elle se montrait absolument maternelle en lui offrant une telle affection, elle accusait du même coup une ignorance totale de son enfance. Les anciennes pulsions reprirent racines dans les veines de Geoffroy. Il n'avait plus qu'une idée : fendre le ventre de sa bien aimée pour répandre ce jus vital qui nourrissait maintenant deux vies.
+
+### Commentaires
+
+L'épilogue du scénario peut sembler choquant, mais il est inspiré du film <a href="http://m.imdb.com/title/tt1175709/?ref_=m_nmfmd_act_14">All Good Things</a> qui raconte comment Robert Durst, homme d'affaires américain, en serait venu à assassiner sa femme Kathleen « Katie » McCormack. Je parle surtout la scène où Katie annonce à son mari qu'elle est enceinte. Une seconde inspiration m'est venue du roman <a href="https://fr.wikipedia.org/wiki/L%27%C3%89tranger">L'Étranger</a> d'Albert Camus. Quoi que celle-ci soit plus subtile, elle se manifeste toute en lumière. Ouvrez l'oeil et elle vous éblouira ;)
+
+</div>
+</div>
+
+
+<div class="column-half">
+<div class="column-inner" markdown="1">
+
+##Synopsis
+
+## Comments
+
+... Keep your eyes open and you'll notice how shiny it is ;) 
+</div>
+</div>
+</div>
+
 # Experimental Theatre
 
 ## Introduction
 
-* Software as an artwork
+* Software Engineering as an artwork
 * I'm not a 3D artist. I'm an hard coder.
 * Tools (library/animator/compositor)
 * Product (short animation video)
