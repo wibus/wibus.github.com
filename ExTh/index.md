@@ -9,7 +9,7 @@ title: Experimental Theatre
 <div class="column-half">
 <div class="column-inner" markdown="1">
 
-## Synopsis
+## Synopsis (Français)
 
 ### Prologue
 
@@ -18,11 +18,11 @@ Lorsque Geoffroy figea, interloqué par le tribalisme qui émanait des peintures
 
 ### Épilogue
 
-...le symbole exprimé par ce cadeau était bien clair, mais ne fit qu'assombrir l'humeur de Geoffroy. Bien qu'elle se montrait absolument maternelle en lui offrant une telle affection, elle accusait du même coup une ignorance totale de son enfance. Les anciennes pulsions reprirent racines dans les veines de Geoffroy. Il n'avait plus qu'une idée : fendre le ventre de sa bien aimée pour répandre ce jus vital qui nourrissait maintenant deux vies.
+... bien que le symbole exprimé par ce cadeau était clair et généralement considéré comme un moment heureux, il ne fit qu'assombrir l'humeur de Geoffroy. Elle se montrait absolument maternelle en lui offrant une telle affection, mais accusait du même coup une ignorance totale de son enfance. Les anciennes pulsions reprirent racines dans les veines de Geoffroy. Il n'avait maintenant plus qu'une idée&nbsp;: fendre le ventre de sa bien aimée pour répandre ce jus vital qui nourrissait maintenant deux vies.
 
 ### Commentaires
 
-L'épilogue du scénario peut sembler choquant, mais il est inspiré du film <a href="http://m.imdb.com/title/tt1175709/?ref_=m_nmfmd_act_14">All Good Things</a> qui raconte comment Robert Durst, homme d'affaires américain, en serait venu à assassiner sa femme Kathleen « Katie » McCormack. Je parle surtout la scène où Katie annonce à son mari qu'elle est enceinte. Une seconde inspiration m'est venue du roman <a href="https://fr.wikipedia.org/wiki/L%27%C3%89tranger">L'Étranger</a> d'Albert Camus. Quoi que celle-ci soit plus subtile, elle se manifeste toute en lumière. Ouvrez l'oeil et elle vous éblouira ;)
+L'épilogue peut sembler choquant, mais il est inspiré du film <a href="http://www.imdb.com/title/tt1175709/">All Good Things</a> qui raconte comment Robert Durst, homme d'affaires américain, en serait venu à assassiner sa femme Kathleen « Katie » McCormack. Je pense tout particulièrement par la scène où Katie annonce à son mari qu'elle est enceinte. Une seconde inspiration m'est venue du roman <a href="https://fr.wikipedia.org/wiki/L%27%C3%89tranger">L'Étranger</a> d'Albert Camus. Quoi que celle-ci soit plus subtile, elle se manifeste toute en lumière. Ouvrez l'oeil et elle vous éblouira ;)
 
 </div>
 </div>
@@ -31,11 +31,19 @@ L'épilogue du scénario peut sembler choquant, mais il est inspiré du film <a 
 <div class="column-half">
 <div class="column-inner" markdown="1">
 
-##Synopsis
+## Synopsis (English)
 
-## Comments
+### Prologue
 
-... Keep your eyes open and you'll notice how shiny it is ;) 
+Whe Geoffroy froze, shocked by the strong tribalism emanating from the paintings, he caught sight of his ginger curvaceous sweetheart asking him to fallow her. She was anxious to see at last her fiancé's reaction to the art work she had just setup for him. Despite his sweatheart's apparent excitement, Geoffroy won't rush and will take the time to admire every art works that'll be on his way...
+
+### Epilogue
+
+... even though the symbolism expressed in her art work was clear and generally seen as a joyous event, Geoffroy's mood only got darker. In her mind, this gift was full of love and tenderness but it also happened to be the evidence that she knew nothing about his childhood.  Old Geoffroy's demons re-emerged and took control of his will. All he was able to think of was to stab his sweatheart in the belly and poor this nourishing juice that was now feeding two lives.
+
+### Comments
+
+The epilogue may seems disturbing, but is in fact inspired by the movie <a href="http://www.imdb.com/title/tt1175709/">All Good Things</a> which tells how Robert Durst, an American real estate heir, would have to come to murder his wife Kathleen « Katie » McCormack. I'm referring particularly to the scene when Katie annouces her pregnancy to her husband. A second inspiration came from Albert Camus' novel <a href="https://en.wikipedia.org/wiki/The_Stranger_(novel)">L'Étranger</a>. This one may be a bit subtle as it manifests itself through anything by lights. Keep your eyes open and you'll notice how shiny it is ;) 
 </div>
 </div>
 </div>
