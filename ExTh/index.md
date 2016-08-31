@@ -2,13 +2,15 @@
 layout: default
 title: Experimental Theatre
 ---
-#The Fruit : A Moving Picture
+
+# The Fruit : A Moving Picture
 
 <iframe width="960" height="540" src=""></iframe>
 
 <div style="display: inline-block">
 <div class="column-half">
 <div class="column-inner" markdown="1">
+
 
 ## Synopsis (Français)
 
@@ -25,7 +27,7 @@ Lorsque Geoffroy figea, interloqué par le tribalisme qui émanait des peintures
 
 L'épilogue peut sembler choquant, mais il est inspiré du film <a href="http://www.imdb.com/title/tt1175709/">All Good Things</a> qui raconte comment Robert Durst, homme d'affaires américain, en serait venu à assassiner sa femme Kathleen « Katie » McCormack. Je pense tout particulièrement par la scène où Katie annonce à son mari qu'elle est enceinte. Une seconde inspiration m'est venue du roman <a href="https://fr.wikipedia.org/wiki/L%27%C3%89tranger">L'Étranger</a> d'Albert Camus. Quoi que celle-ci soit plus subtile, elle se manifeste toute en lumière. Ouvrez l'oeil et elle vous éblouira ;)
 
-*Experimental Theatre* est un framework C++ pour la simulation numérique. La présente animation illustre son abilité a dessiner des combinaisons de surfaces analytiques par la méthode du tracer de chemins (path tracing). *Experiemental Theatre* est à usage unique. *The Fruit* sera sont unique production.
+<span class="oeuvre">Experimental Theatre</span> est un framework C++ pour la simulation numérique. La présente animation illustre son abilité a dessiner des combinaisons de surfaces analytiques par la méthode du tracer de chemins (path tracing). <span class="oeuvre">Experimental Theatre</span> est à usage unique. <span class="oeuvre">The Fruit</span> sera sont unique production.
 
 </div>
 </div>
@@ -48,7 +50,7 @@ Whe Geoffroy froze, shocked by the strong tribalism emanating from the paintings
 
 The epilogue may seems disturbing, but is in fact inspired by the movie <a href="http://www.imdb.com/title/tt1175709/">All Good Things</a> which tells how Robert Durst, an American real estate heir, would have to come to murder his wife Kathleen « Katie » McCormack. I'm referring particularly to the scene where Katie annouces her pregnancy to her husband. A second inspiration came from Albert Camus' novel <a href="https://en.wikipedia.org/wiki/The_Stranger_(novel)">L'Étranger</a>. This one may be a bit subtle as it manifests itself through anything by lights. Keep your eyes open and you'll notice how shiny it is ;) 
 
-*Experimental Theatre* is a C++ numerical simulation framework. This animation showcases its ability to render combinations of analytical surfaces through path tracing. *Experimental Theatre* is single use. *The Fruit* will be its unique production.
+<span class="oeuvre">Experimental Theatre</span> is a C++ numerical simulation framework. This animation showcases its ability to render combinations of analytical surfaces through path tracing. <span class="oeuvre">Experimental Theatre</span> is single use. <span class="oeuvre">The Fruit</span> will be its unique production.
 
 </div>
 </div>

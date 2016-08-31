@@ -10,6 +10,10 @@ h1 {
 	padding-top: 1em;
 }
 
+h2, h3 {
+    text-align: center;
+}
+
 em {
     font-weight: 700;
 }
