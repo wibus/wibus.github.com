@@ -25,9 +25,15 @@ Lorsque Geoffroy figea, interloqué par le tribalisme qui émanait des peintures
 
 ### Commentaires
 
-L'épilogue peut sembler choquant, mais il est inspiré du film <a href="http://www.imdb.com/title/tt1175709/">All Good Things</a> qui raconte comment Robert Durst, homme d'affaires américain, en serait venu à assassiner sa femme Kathleen « Katie » McCormack. Je pense tout particulièrement par la scène où Katie annonce à son mari qu'elle est enceinte. Une seconde inspiration m'est venue du roman <a href="https://fr.wikipedia.org/wiki/L%27%C3%89tranger">L'Étranger</a> d'Albert Camus. Quoi que celle-ci soit plus subtile, elle se manifeste toute en lumière. Ouvrez l'oeil et elle vous éblouira ;)
+L'épilogue peut sembler choquant, mais il est inspiré du film <a href="http://www.imdb.com/title/tt1175709/">All Good Things</a> qui raconte comment Robert Durst, homme d'affaires américain, en serait venu à assassiner sa femme Kathleen «&nbsp;Kati&nbsp;» McCormack. Je pense tout particulièrement par la scène où Katie annonce à son mari qu'elle est enceinte. Une seconde inspiration m'est venue du roman <a href="https://fr.wikipedia.org/wiki/L%27%C3%89tranger">L'Étranger</a> d'Albert Camus. Quoi que celle-ci soit plus subtile, elle se manifeste toute en lumière. Ouvrez l'oeil et elle vous éblouira ;)
 
-<span class="oeuvre">Experimental Theatre</span> est un framework C++ pour la simulation numérique. La présente animation illustre son abilité a dessiner des combinaisons de surfaces analytiques par la méthode du tracer de chemins (path tracing). <span class="oeuvre">Experimental Theatre</span> est à usage unique. <span class="oeuvre">The Fruit</span> sera sont unique production.
+<span class="oeuvre">Experimental Theatre</span> est un framework C++ pour le développement de simulations numériques. La présente animation illustre son habileté a dessiner des combinaisons de surfaces analytiques par tracer de chemins (path tracing). <span class="oeuvre">Experimental Theatre</span> est à usage unique. <span class="oeuvre">The Fruit</span> sera sont unique production.
+
+### Code Source
+
+* Librarie de rendu : <a href="https://github.com/wibus/ExperimentalTheatre">Experiemtal Theatre</a>
+* Editeur, Renderer et Compositeur : <a href="https://github.com/wibus/ExTh-Suite">ExTh-Suite</a>
+
 
 </div>
 </div>
@@ -40,22 +46,35 @@ L'épilogue peut sembler choquant, mais il est inspiré du film <a href="http://
 
 ### Prologue
 
-Whe Geoffroy froze, shocked by the strong tribalism emanating from the paintings, he caught sight of his ginger curvaceous sweetheart asking him to fallow her. She was anxious to see at last her fiancé's reaction to the art work she had just setup for him. Despite his sweatheart's apparent excitement, Geoffroy won't rush and will take the time to admire every art works that'll be on his way...
+When Geoffroy froze, shocked by the strong tribalism emanating from the paintings, he caught sight of his ginger curvaceous sweetheart asking him to fallow her. She was anxious to see at last her fiancé's reaction to the art work she had just setup for him. Despite his sweetheart's apparent excitement, Geoffroy won't rush and will take the time to admire every art works that'll be on his way...
 
 ### Epilogue
 
-... even though the symbolism expressed in her art work was clear and generally seen as a joyous event, Geoffroy's mood only got darker. In her mind, this gift was full of love and tenderness but it also happened to be the evidence that she knew nothing about his childhood.  Old Geoffroy's demons re-emerged and took control of his will. All he was able to think of was to stab his sweatheart in the belly and poor this nourishing juice that was now feeding two lives.
+... even though the symbolism expressed in her art work was clear and generally seen as a joyous event, Geoffroy's mood only got darker. In her mind, this gift was full of love and tenderness but it also happened to be the evidence that she knew nothing about his childhood.  Old Geoffroy's demons re-emerged and took control of his will. All he was able to think of was to stab his sweetheart in the belly and poor this nourishing juice that was now feeding two lives.
 
 ### Comments
 
 The epilogue may seems disturbing, but is in fact inspired by the movie <a href="http://www.imdb.com/title/tt1175709/">All Good Things</a> which tells how Robert Durst, an American real estate heir, would have to come to murder his wife Kathleen « Katie » McCormack. I'm referring particularly to the scene where Katie annouces her pregnancy to her husband. A second inspiration came from Albert Camus' novel <a href="https://en.wikipedia.org/wiki/The_Stranger_(novel)">L'Étranger</a>. This one may be a bit subtle as it manifests itself through anything by lights. Keep your eyes open and you'll notice how shiny it is ;) 
 
-<span class="oeuvre">Experimental Theatre</span> is a C++ numerical simulation framework. This animation showcases its ability to render combinations of analytical surfaces through path tracing. <span class="oeuvre">Experimental Theatre</span> is single use. <span class="oeuvre">The Fruit</span> will be its unique production.
+<span class="oeuvre">Experimental Theatre</span> is a C++ numerical simulation framework. This animation showcases its ability to render combinations of analytical surfaces through path tracing. <span class="oeuvre">Experimental Theatre</span> is single use. <span class="oeuvre">The Fruit</span> will be its unique production.  
+
+<!--p style="
+    margin: 1em 0;
+    padding: 5px 0 0 0;
+    /* display: none; */
+"></p-->
+
+### Source Code
+
+* Rendering Library : <a href="https://github.com/wibus/ExperimentalTheatre">Experiemtal Theatre</a>
+* Editor, Renderer &amp; Compositor : <a href="https://github.com/wibus/ExTh-Suite">ExTh-Suite</a>
 
 </div>
 </div>
 
 </div>
+
+<!-- 
 
 # Experimental Theatre
 
@@ -89,3 +108,5 @@ Summary a development :
 ## What's next for Experiemental Theatre's path tracer
 
 It's going to garbarge. I've learn a lot of lessons doing this project, and those wont fallow to the trash, but I'll take advantage of them only in the case I work on a production path tracer. I mean, if ever I find my way to work on RenderMan, Maxwell Renderer, Arnold, etc., etc... this experience will prove useful. So, the path tracer won't benefit from any further improvement. No triangle mesh support, no multiple importance sampling fix and no "soft-coded" animation editor. To be honest, I'm a bit tired right now. Taking a step back, this year an a half of intense development for a tiny 1m35s of animation seems a bit crazy. I guess that a talented 3D artist could have produced a better animation in a single week (2 days of creation, 5 days of rendering :P) with proper softwares. That's why its going to garbage. That's why I'm now turning myself to mature path tracers.
+
+-->

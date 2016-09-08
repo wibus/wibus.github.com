@@ -1,6 +1,6 @@
 ---
 layout: nouvelle
-title:
+title: The End
 date: Octobre 2015
 style: /litterature/The Fruit.css
 ---
@@ -29,7 +29,7 @@ style: /litterature/The Fruit.css
 <!-- -->
 
 
-<!-- DESCRIPTIVE -->
+<!-- DESCRIPTIVE >
 <p><span class="exth">Experimental Theatre</span> is a C++ simulation framework. This animation showcases its ability to render combinations of analytical surfaces through path tracing.</p>
 
 
@@ -50,6 +50,14 @@ style: /litterature/The Fruit.css
 <p>...le symbole exprimé par ce cadeau était bien clair, mais ne fit qu'assombrir l'humeur de Geoffroy. Bien qu'elle se montrait absolument maternelle en lui offrant une telle affection, elle accusait du même coup une ignorance totale de son enfance. Les anciennes pulsions reprirent racines dans les veines de Geoffroy. Il n'avait plus qu'une idée : fendre le ventre de sa bien aimée pour répandre ce jus vital qui nourrissait maintenant deux vies.</p>
 <!-- -->
 
+
+<!-- THE END -->
+
+<!--div class="synopsis">
+(See video description for synopsis)
+</div-->
+
+<!-- -->
 
 <!-- ARTWORKS
 
