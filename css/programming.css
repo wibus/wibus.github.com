@@ -15,6 +15,10 @@
 	background-color: #00f;
 }
 
+.covers-container {
+    padding: 50px 80px 20px;    
+}
+
 .covers-line {
 	padding: 20px 0;
 }

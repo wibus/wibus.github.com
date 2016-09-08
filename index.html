@@ -2,6 +2,7 @@
 layout: default
 title: William Bussière
 ---
+
 <div class="column-half">
 	<div class="column-inner">
 		<h1 class="text-title">Bienvenue</h1>
@@ -10,10 +11,23 @@ title: William Bussière
             <em>Nom de famille : </em>Bussière<br>
             <em>Biographie : </em>L'ingénierie du logiciel en tant qu'art<br>
             <em>Intérets : </em>I = {jonglerie, monocycle, clarinette, littérature}<br>
-            <em>Emploi : </em>Travailleur à la maison<br>
-            <em>Localisation : </em>Montréal, Qc<br>
+            <em>Travail : </em>Maîtrise en Génie Informatique<br>
+            <em>Résidence : </em>Montréal, Qc<br>
         </p>
-        <p>La section <a href="litterature/">Littérature</a> est entièrement en français. L'anglais est réservé pour la section <a href="programming/">Programming</a>. Le court métrage d'animation <a href="ExTh/">The Fruit</a> est traité à la fois en français et en anglais, car il s'agit d'un oeuvre à la fois littéraire et d'ingénierie logiciel.</p>
+            
+        <p>Je termine présentement ma maîtrise en génie informatique à l'École Polytechnique de Montréal. Mon sujet de recherche porte sur la parallélisation d'algorithmes d'adaptation et d'optimisation de maillage sur GPU. Parallèlement à mes études, j'ai aussi exécuté quelques projets personnels. Ces expérimentations tournent toujours autour de problèmes géométriques et de techniques de rendu. Le meilleur exemple est <a href="ExTh/">The Fruit&nbsp;- A Moving Picture</a>, une courte animation dessinée par tracer de chemin (path tracing) dont la géométrie est composée uniquement surfaces analytiques combinées par opérations booléennes. L'engin de rendu, l'éditeur/animateur et le compositeur qui ont permis sa production ont été codés de zéro.</p>
+        
+        <h2>Sujet de maîtrise</h2>
+        
+        <p>Les maillages non-structurés, en mécanique des fluides numérique, comportent généralement plusieurs millions de noeuds et doivent être adaptés à la géométrie du problème ainsi qu'à la distribution spatiale des propriétés du fluide (vitesse, pression, température, etc.). Présentement, la résolution itérative des problèmes par alternance d'étapes de résolution et d'adaptation représente l'état de l'art. En amorçant le processus avec un maillage grossier, il est possible d'obtenir des solutions de plus en plus précises et des maillages de mieux en mieux adaptés plus le nombre d'itérations est élevé. Ces dernières années, beaucoup d'efforts ont été investis dans la parallélisation des méthodes de résolution, que ce soit pour la méthode des Éléments Finis (FEM), des Volumes Finis (FVM) ou des différences finies (FDM). Cependant, l'adaptation de maillage représente une part importante du temps de calcul sur l'ensemble du processus itératif. Si un effort comparable de parallélisation ne lui est pas accordé, on verra bientôt cette étape déterminer fortement le temps de calcul total pour obtenir une solution précise en mécanique des fluides numérique.</p>
+        
+        <p>L'adaptation de maillage se divise en deux types d'opérations : opérations topologiques et déplacement de noeuds. L'intérêt pour le GPU vient de son étonnante puissance de calcul en arithmétique flottante (de l'ordre de quelques téraFLOPS pour une unique carte graphique), délivrée sous forme de milliers de coeurs. Contrairement aux opérations topologiques, le déplacement de noeuds présente un certain potentiel à être parallélisé sur GPU. L'introduction d'une métrique riemannienne complique toutefois les choses. Une simple transposition des algorithmes développés pour le CPU vers le GPU offre des performances désastreuses. Essentiellement, trois causes sont à l'origine de cette décélération. Premièrement, les coeurs d'un GPU ont une cadence d'exécution plus lente que ceux d'un CPU. Deuxièmement, les algorithmes les plus sophistiqués ont tendance à faire diverger les threads d'un même bloque à cause des branchements conditionnels. Finalement, la technique qui consiste à échantillonner la métrique sur un maillage de fond n'est pas du tout adapté au GPU et fait elle aussi diverger les threads. La divergence est nuisible parce qu'elle force le GPU à exécuter des séries d'instructions séquentiellement, nous privant ainsi d'une portion de sa puissance de calcul.</p>
+        
+        <p>Ces problèmes de divergence semble toutefois contournables. Cela passe d'abord par la conception de nouveaux algorithmes de déplacement de noeuds. Il faut tirer parti de l'architecture matériel du GPU de manière à réduire au maximum les branchements conditionnels, ou du moins en uniformisant l'exécution des threads. Puis, il faut trouver une alternative à l'échantillonnage de la métrique. Localiser l'élément contenant notre échantillon dans le maillage de fond non-structuré semble être une opération trop imprévisible. L'utilisation d'une structure de données différente, comme une grille uniforme stockée sous forme de texture, semble être la voie à suivre.</p>
+            
+        <!--/p>
+        <p>La section <a href="litterature/">Littérature</a> est entièrement en français. L'anglais est réservé pour la section <a href="programming/">Programming</a>. Le court métrage d'animation <a href="ExTh/">The Fruit</a> est traité à la fois en français et en anglais, car il s'agit d'un oeuvre à la fois littéraire et d'ingénierie logiciel.</p-->
+            
 		<!--p>Voici le portfolio web d'un jeune futur ingénieur. Je porte à la fois un grand sens scientifique, principalement appliqué dans le développement logiciel, et artistique, qui trouve son épanouissement dans la musique, la littérature et les films. Ce site est divisé de manière à présenter mes projets logiciels d'une part et quelques'unes des mes oeuvres littéraires de l'autre. De plus, étant québecois francophone, j'ai rédigé chacune des sections en choisissant la langue la plus appropriée selon le contexte: soit l'anglais pour la programmation, vu le public cible, et le français pour la littérature puisque c'est ma langue maternelle.</p-->
 	</div>
 </div>
@@ -25,10 +39,18 @@ title: William Bussière
             <em>Second Name: </em>Bussière<br>
             <em>Biography: </em>Software Engeering as an Art<br>
             <em>Interests: </em>I = {jugglery, unicycle, clarinet, literature}<br>
-            <em>Occupation: </em>Homeworker<br>
+            <em>Occupation: </em>Master of Computer Science<br>
             <em>Location: </em>Montreal, Qc<br>
         </p>
-        <p><a href="programming/">Programming</a> section is written in english. Literature works in the section <a href="litterature/">Littérature</a> are written in french. <a href="ExTh/">The Fruit</a> short animation film will be both addressed in french and in english, because it is a software engineering work as well as a literary work.</p>
+            
+        <p>I'm currently completing my master degree of computer science at l'École Polytechnique de Montréal. My research focuses on implementing parallel algorithms for mesh optimization and adaptation on the GPU. I have also completed a number of projects alongside my studies. These experiments always involve geometric problems and rendering techniques. The best example might be <a href="ExTh/">The Fruit&nbsp;- A Moving Picture</a>, a short animation film rendered by path tracing analytical surfaces combined with Boolean operators. The rendering engine, editor/animator and compositor used to produce this animation where coded from scratch.</p>
+        
+        <h2>Master thesis</h2>
+        
+        <p>Translation is comming...</p>
+        
+        <!--p><a href="programming/">Programming</a> section is written in english. Literature works in the section <a href="litterature/">Littérature</a> are written in french. <a href="ExTh/">The Fruit</a> short animation film will be both addressed in french and in english, because it is a software engineering work as well as a literary work.</p-->
+        
 		<!--p>This is the web portfolio of a young future engineer. I bear a great scientific mind, mainly used in software development, and of an artistic spirit, which blossomed from music, literature and movies. This web site has the dual objective of presenting some of my works in software devlopment and some of the short stories that I've written. Since I'm a french Quebecer, every sections of this website is written in the most appropriate language for the context: pages related to programming are in english, bearing in mind the target audience, and those related to literature are in french since it is my mother tongue.</p-->
 	</div>
 </div>

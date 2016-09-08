@@ -60,14 +60,16 @@ ol ol, ul ol {
 	display:inline-block;
 	background-color:white;
 	border-radius: 5px;
+    padding: 50px;
 }
 
 #paper-padding {
-  padding: 50px;
+    width: 100%;
+    display: inline-block;
 }
 
 .page-center {
-	width:1060px;
+	width:960px;
 	margin:0 auto;
 }
 
