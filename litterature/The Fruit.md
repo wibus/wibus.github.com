@@ -1,6 +1,6 @@
 ---
 layout: nouvelle
-title: The End
+title:
 date: Octobre 2015
 style: /litterature/The Fruit.css
 ---
@@ -52,6 +52,8 @@ style: /litterature/The Fruit.css
 
 
 <!-- THE END -->
+
+## The End
 
 <!--div class="synopsis">
 (See video description for synopsis)
