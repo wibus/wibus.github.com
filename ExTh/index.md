@@ -17,7 +17,7 @@ title: Experimental Theatre
 
 ### Prologue
 
-Lorsque Geoffroy figea, interloqué par le tribalisme qui émanait des peintures, il aperçu sa douce moitié rousse et pulpeuse l'invitant à la suivre. Elle venait d'installer son oeuvre et s'impatientait à l'idée de voir enfin la réaction de son fiancé. Malgré la fébrilité de sa douce moitié, Geoffroy prendra tout de même le temps d'admirer chacune des oeuvres qui se trouveront sur son passage...
+Lorsque Geoffroy figea, interloqué par le tribalisme qui émanait des peintures, il aperçut sa douce moitié rousse et pulpeuse l'invitant à la suivre. Elle venait d'installer son oeuvre et s'impatientait à l'idée de voir enfin la réaction de son fiancé. Malgré la fébrilité de sa douce moitié, Geoffroy prendra tout de même le temps d'admirer chacune des oeuvres qui se trouveront sur son passage...
 
 </div>
 </div>
@@ -39,7 +39,7 @@ When Geoffroy froze, shocked by the strong tribalism emanating from the painting
 
 ### Épilogue
 
-... bien que le symbole exprimé par ce cadeau était clair et généralement considéré comme un moment heureux, il ne fit qu'assombrir l'humeur de Geoffroy. Elle se montrait absolument maternelle en lui offrant une telle affection, mais accusait du même coup une ignorance totale de son enfance. Les anciennes pulsions reprirent racines dans les veines de Geoffroy. Il n'avait maintenant plus qu'une idée&nbsp;: fendre le ventre de sa bien aimée pour répandre ce jus vital qui nourrissait maintenant deux vies.
+... bien que le symbole exprimé par ce cadeau soit clair et généralement considéré comme un moment heureux, il ne fit qu'assombrir l'humeur de Geoffroy. Elle se montrait absolument maternelle en lui offrant une telle affection, mais accusait du même coup une ignorance totale de son enfance. Les anciennes pulsions reprirent racines dans les veines de Geoffroy. Il n'avait maintenant plus qu'une idée&nbsp;: fendre le ventre de sa bien-aimée pour répandre ce jus vital qui nourrissait maintenant deux vies.
 
 </div>
 </div>
@@ -59,9 +59,9 @@ When Geoffroy froze, shocked by the strong tribalism emanating from the painting
 
 ### Commentaires
 
-L'épilogue peut sembler choquant, mais il est inspiré du film <a href="http://www.imdb.com/title/tt1175709/">All Good Things</a> qui raconte comment Robert Durst, homme d'affaires américain, en serait venu à assassiner sa femme Kathleen «&nbsp;Kati&nbsp;» McCormack. Je pense tout particulièrement par la scène où Katie annonce à son mari qu'elle est enceinte. Une seconde inspiration m'est venue du roman <a href="https://fr.wikipedia.org/wiki/L%27%C3%89tranger">L'Étranger</a> d'Albert Camus. Quoi que celle-ci soit plus subtile, elle se manifeste toute en lumière. Ouvrez l'oeil et elle vous éblouira ;)
+L'épilogue peut sembler choquant, mais il est inspiré du film <a href="http://www.imdb.com/title/tt1175709/">All Good Things</a> qui raconte comment Robert Durst, homme d'affaires américain, en serait venu à assassiner sa femme Kathleen «&nbsp;Kati&nbsp;» McCormack. Je pense tout particulièrement par la scène où Katie annonce à son mari qu'elle est enceinte. Une seconde inspiration m'est venue du roman <a href="https://fr.wikipedia.org/wiki/L%27%C3%89tranger">L'Étranger</a> d'Albert Camus. Quoique celle-ci soit plus subtile, elle se manifeste toute en lumière. Ouvrez l'oeil et elle vous éblouira ;)
 
-<span class="oeuvre">Experimental Theatre</span> est un framework C++ pour le développement de simulations numériques. La présente animation illustre son habileté a dessiner des combinaisons de surfaces analytiques par tracer de chemins (path tracing). <span class="oeuvre">Experimental Theatre</span> est à usage unique. <span class="oeuvre">The Fruit</span> sera sont unique production.
+<span class="oeuvre">Experimental Theatre</span> est un framework C++ pour le développement de simulations numériques. La présente animation illustre son habileté à dessiner des combinaisons de surfaces analytiques par tracé de chemins (path tracing). <span class="oeuvre">Experimental Theatre</span> est à usage unique. <span class="oeuvre">The Fruit</span> sera sont unique production.
 
 </div>
 </div>
@@ -86,7 +86,7 @@ The epilogue may seems disturbing, but is in fact inspired by the movie <a href=
 ### Code Source
 
 * Librarie de rendu : <a href="https://github.com/wibus/ExperimentalTheatre">Experiemtal Theatre</a>
-* Editeur, Renderer et Compositeur : <a href="https://github.com/wibus/ExTh-Suite">ExTh-Suite</a>
+* Éditeur, Renderer et Compositeur : <a href="https://github.com/wibus/ExTh-Suite">ExTh-Suite</a>
 
 
 </div>
