@@ -1,0 +1,103 @@
+
+
+\usepackage{setspace}
+\setlength{\parindent}{0pt}
+\linespread{1.3}
+
+\usepackage{tikz}
+\usetikzlibrary{calc}
+
+\usepackage{hyperref}
+\usepackage{xcolor}
+\hypersetup{
+	colorlinks,
+	linkcolor={red!50!black},
+	citecolor={blue!50!black},
+	urlcolor={blue!50!black}
+}
+
+\pagenumbering{gobble}
+\usepackage[left=1.8cm,right=1.8cm,top=1.8cm,bottom=1.8cm]{geometry}
+
+
+
+\newcommand{\halfwidth}{\textwidth/2.25}
+
+\newcommand{\themecolor}{blue!30!black}
+
+\newenvironment{nospace}
+{\parskip=0pt\par\nopagebreak\centering}
+{\par\noindent\ignorespacesafterend}
+
+
+%% #1 : Author
+\newcommand{\cvheader}[1]{
+	\begin{nospace}
+		\begin{tikzpicture}
+		\pgfmathsetmacro{\padding}{1};
+		\pgfmathsetmacro{\gap}{0.15};
+		
+		\draw[line width=1.8pt, draw=\themecolor] (-\halfwidth, \padding) -- (\halfwidth, \padding);
+		
+		\node[text=\themecolor] at (0, 0) {\huge \textbf{#1}};
+		
+		\draw[line width=1.0pt, draw=\themecolor] (-\halfwidth, -\padding+\gap) -- (\halfwidth, -\padding+\gap);
+		\draw[line width=1.8pt, draw=\themecolor] (-\halfwidth, -\padding) -- (\halfwidth, -\padding);
+		\end{tikzpicture}
+	\end{nospace}
+}
+
+%% #1 : Address line 1
+%% #2 : Address line 2
+%% #3 : email
+%% #4 : phone number
+\newcommand{\cvinfo}[4]{	
+	\begin{nospace}
+		\footnotesize #1, #2 $\bullet$ #3 $\bullet$ #4
+	\end{nospace}
+}
+
+
+%% #1 : Section Title
+\newcommand{\cvsection}[1]{
+	\vspace{0.7cm}
+	\centering
+	\begin{tikzpicture}
+		\node[
+			right,
+			text=\themecolor,
+			inner sep=0,
+			outer sep=0
+		] 
+			(title) at (0, 0) {\large\textit{#1}};
+		
+		\draw[thick, draw=\themecolor] let 
+			\p1 = (title.north east) in
+			(\x1+0.3cm, \y1) -- (0.99\textwidth, \y1);
+	\end{tikzpicture}
+	\vspace{0.5cm}
+}
+
+%% #1 Date
+%% #2 Title
+%% #3 Location
+%% #3 Description
+\newcommand{\cventry}[4]{
+	\begin{minipage}[]{0.18\textwidth}%
+		\centering%
+		#1%
+	\end{minipage}
+	\begin{minipage}[]{0.80\textwidth}
+		\textbf{#2} \hfill \textit{#3}\\
+		#4
+	\end{minipage}
+	\vspace{0.5cm}
+}
+
+%% #1 Content
+\newcommand{\cvplaincontent}[1]{
+	\begin{minipage}[]{0.99\textwidth}
+		#1
+	\end{minipage}
+	\vspace{0.5cm}
+}
