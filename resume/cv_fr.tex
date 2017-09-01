@@ -1,27 +1,6 @@
-\documentclass[letterpaper,10pt,oneside,final]{article}
-\usepackage{lmodern}
-\usepackage[T1]{fontenc}
-\usepackage[utf8]{inputenc}
-\usepackage[english,frenchb]{babel}
-\usepackage{cvtemplate}
-\title{Curriculum vitæ -- William Bussière}
-\author{William BUSSIÈRE}
+\insertcvheader
 
-\begin{document}
-%% HEADER
-\cvheader{William Bussière}
-
-%% CONTACT INFO
-\vspace{0.15cm}
-\cvinfo
- {1101 Louis-H.-Latour}
- {Boucherville Qc, J4B 5G5}
- {william.bussiere@gmail.com}
- {(514)~963-3260}
- 
 %%LANGUAGES
-\vspace{1.0cm}
-
 \cvplaincontent{
  \textbf{Langues}~: Français, Anglais (parlé et écrit)
 }
@@ -35,6 +14,7 @@
  \textbf{Librairies}~: Qt, OpenGL, CUDA, VTK, NodeJS, Electron, Unity\\ 
  \textbf{Techniques d'infographie}~: path tracing, rendu volumique, projection d'ombres
 }
+
 %% EDUCATION
 \cvsection{FORMATION SCOLAIRE}
 
@@ -66,7 +46,7 @@
  Diriger l’équipe logicielle au sein d’un projet étudiant multidisciplinaire\\
  Communiquer l'avancement du travail au conseil d'administration hebdomadairement\\
  Évaluer et sélectionner des technologies pour la réalisation du projet\\
- Documenter des solutions choisies et des procédures d’installation\\
+ Documenter des solutions choisies et des procédures d’installation
 }
 
 \cventry{2012~--~2013}{Stage en développement logiciel}{Zimmer CAS}{
@@ -167,4 +147,11 @@
 }
 
 
-\end{document}
+%% REFERENCES
+\cvsection{RÉFÉRENCES}
+
+\cvplaincontent{
+	François Guibault, \textit{Directeur de recherche}~: francois.guibault@polymtl.ca \\
+	Julien Marbach, \textit{Chef d'équipe chez Dental Wings}~: julien.marbach@dental-wings.com\\
+	Eric Brosseau, \textit{Chef d'équipe chez Zimmer CAS}~: brosse@sympatico.ca
+}
