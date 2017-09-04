@@ -1,10 +1,16 @@
 \documentclass[letterpaper,10pt,oneside,final]{article}
 
+\usepackage[left=1.8cm,right=1.8cm,top=1.8cm,bottom=1.8cm]{geometry}
+\usepackage{afterpage}
+
 \usepackage{lmodern}
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
 
 \usepackage[english,frenchb]{babel}
+
+\usepackage{setspace}
+\usepackage{parskip}
 
 \title{Curriculum vitæ -- William Bussière}
 \author{William BUSSIÈRE}
@@ -27,7 +33,14 @@
 
 \begin{document}
 
-\include{Letters/ToonBoom_fr}
+\afterpage{%
+	\newgeometry{left=2.5cm,right=2.0cm,top=2.5cm,bottom=2cm}
+	
+	\include{Letters/ToonBoom_fr}
+	
+	\restoregeometry
+	\clearpage
+}
 
 \include{cv_fr}
 
