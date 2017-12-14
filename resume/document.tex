@@ -32,14 +32,25 @@
 
 
 \begin{document}
+    
 
 \afterpage{%
+    
 	\newgeometry{left=2.5cm,right=2.0cm,top=2.5cm,bottom=2cm}
 	
-	\include{Letters/ToonBoom_fr}
+	\include{Letters/PrecisionsDureeEtudes}
 	
 	\restoregeometry
 	\clearpage
+}
+
+\afterpage{%
+    \newgeometry{left=2.5cm,right=2.0cm,top=2.5cm,bottom=2cm}
+    
+    \include{Letters/ResumeMemoire}
+    
+    \restoregeometry
+    \clearpage
 }
 
 \include{cv_fr}
