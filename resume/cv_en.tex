@@ -23,7 +23,7 @@
 
 \cventry{2015~--~2017}{Master of Computer Science}{Polytechnique Montréal}{
 	Parallel mesh adaptation on the CPU and GPU\\
-	Research presented at USNCCM 14
+	Nominated for best master's thesis of the year
 }
 
 \cventry{2010~--~2015}{Bachelor of Software Engineering}{Polytechnique Montréal}{
@@ -31,22 +31,37 @@
 	Multimedia orientation
 }
 
+%% R&D CONTRIBUTIONS
+\cvsection{R\&D CONTRIBUTIONS}
+
+\cvplaincontent{
+    \textit{\textbf{Bussière, W.}, Guibault, F. (2017) Hybrid CPU/GPU parallel unstructured mesh adaptation. 14th U.S. National Congress on Computational Mechanics.} (design tests, generate results and edit tables and figures)
+}
+
 
 %% WORK
 
 \cvsection{WORK EXPERIENCE}
+
+\cventry{Novembre 2017}{Software developer Realtime AR/VR Rendering}{Autodesk}{
+    Architectural visualization realtime renderer development for AR/VR devices\\
+    Optimise local light access for light baking on the GPU\\
+    Translate box lights shaders for OpenGL platforms\\
+    Web page~: \href{https://www.autodesk.com/products/stingray/overview}{autodesk.com/products/stingray/overview}\\
+    Agile/Scrum software processes
+}
 
 \cventry{Summer 2014}{Software Engineering Internship}{Dental Wings}{
 	Development of a new intraoral scanning station for digital dental impression\\
 	Implement a shadow casting engine in OpenGL/GLSL\\
 	Design jaw manipulation gestures for the Leap Motion\\
 	Web page~: \href{http://www.dentalwings.com/products/intraoral-scanner/}{dentalwings.com/products/intraoral-scanner}\\
-	Working with the Agile/Scrum development processes	
+	Agile/Scrum software processes	
 }
 
 \cventry{2013~--~2014}{Technical Director for MÉTIS}{Polytechnique Montréal}{
-	In partenership with the Centre de réadaptation Marie Enfant du CHU Sainte Justine\\
-	The main goal was to design of a motorized wheelchair for young children\\
+	In partnership with the Centre de réadaptation Marie Enfant du CHU Sainte Justine\\
+	The main goal was to design a motorized wheelchair for young children\\
 	Manage the software team within a multidisciplinary student project\\
 	Make weekly updates on task progression to the board of directors\\
 	Evaluate and select the appropriate technologies for the project\\
@@ -62,60 +77,60 @@
 	Enterprise's management practices were shifting from Waterfall to Agile
 }
 
-\cventry{Summer 2011}{Restructuration du cours INF1010}{Polytechnique Montréal}{
-	Design exercises and examples about object-oriented programming\\
-	Write lecture notes on the STL library and graphical interfaces\\
-	Refactor the course's website on \textit{Moodle}\\
-	Conception de mini-évaluations pour les élèves
-}
+%\cventry{Summer 2011}{Restructuration du cours INF1010}{Polytechnique Montréal}{
+%	Design exercises and examples about object-oriented programming\\
+%	Write lecture notes on the STL library and graphical interfaces\\
+%	Refactor the course's website on \textit{Moodle}\\
+%	Conception de mini-évaluations pour les élèves
+%}
 
 
 %% PROJECTS
 
 \cvsection{PROJECTS}
 
-\cventry{2015~--~2016}{Production d'un court métrage d'animation}{Personal Project}{
-	\textit{The Fruit -- A Moving Picture}~: \href{http://wibus.github.io/ExTh}{wibus.github.io/ExTh}\\
-	Logiciels d'animation, rendu et post-production développés expressément pour cette animation\\
-	Le système produit des images par path tracing sur CPU de manière parallèle et distribuée\\
-	Le logiciel de post production réduit le bruit, applique des effets d'éblouissements, fait un mappage de ton local temporellement et applique une correction gamma sur les images\\
-	La scène ne contient aucun triangle; tous les objets sont le résultat d'opérations booléennes sur des surfaces analytiques quadriques (plans, sphères, paraboloïdes, hyperboloïdes)
+\cventry{2015~--~2016}{Short animated film}{Personal project}{
+    \textit{The Fruit -- A Moving Picture}~: \href{http://wibus.github.io/ExTh}{wibus.github.io/ExTh}\\
+    Animation, rendering and post-production software design exclusively for this animation\\
+    The system renders the images using a progressive multithreaded and distributed path tracer\\
+    The post-production software reduces the noise by sampling temporally, creates bloom effects, apply local tone-mapping  and corrects the gamma of the images\\
+    The scene contains zero triangles; every object is the result of boolean operations on quadrics (planes, spheres, paraboloids, hyperboloids)
 }
 
-\cventry{2011~--~2016}{Conception d'un moteur de simulations}{Personal Project}{
-	\textit{Experiemental Theatre} est une librairie  C++ qui regroupe les quatre modules suivants en exploitant la métaphore du théâtre pour nommer les classes et définir leurs responsabilités~:\\
-	$\bullet$ {Cellar Workbech}~: Structure de données, patrons de conception génériques, journalisation, primitives géométriques, gestion de ressources, classes wrapper pour OpenGL, etc.\\
-	$\bullet$ \textit{Prop Room 2D}~: Framework de rendu et de physique newtonienne pour des géométries 2D\\
-	$\bullet$ \textit{Prop Room 3D}~: Framework de rendu par tracer de chemin parallèle et distributé sur CPU\\
-	$\bullet$ \textit{Scaena}~: Framework pour la création et la gestion d'entités dans une simulation ou un jeu\\
-	Une dizaine de projets personnels sont basés sur cette librairie, dont mon projet de maîtrise\\
-	Disponible sur Github : \href{http://www.github.com/wibus/ExperimentalTheatre}{github.com/wibus/ExperimentalTheatre}
+\cventry{2011~--~2016}{Simulation engine}{Personal project}{
+    \textit{Experiemental Theatre} is a  C++ library regrouping the four following modules:\\
+    $\bullet$ \textit{Cellar Workbech}~: Data structures, generic design patterns, logging, geometric primitives, resources management,  OpenGL wrapper classes, string utility functions, etc.\\
+    $\bullet$ \textit{Prop Room 2D}~: 2D rendering and Newtonian mechanic framework\\
+    $\bullet$ \textit{Prop Room 3D}~: Multithreaded and distributed path tracing framework\\
+    $\bullet$ \textit{Scaena}~: Game and simulation entity management framework\\
+    At least ten personal projects are based on this library, including my master's research project\\
+    Open source Github repository: \href{http://www.github.com/wibus/ExperimentalTheatre}{github.com/wibus/ExperimentalTheatre}
 }
 
-\cventry{Spring 2015}{Développement d'un jeu vidéo pour Laval Virtual}{Integrator Project}{
-	Jeu de course à obstacles pour la Kinect avec compagnons sur tablettes électroniques\\
-	Les compagnons ennemis ajoutes des obstacles pour freiner le coureur d'avantage\\
-	Les compagnons alliés déposent des objets sur le parcours pour avantager le coureur\\
-	Les tablettes des compagnons sont connectées par Wifi à l'ordinateur qui exécute jeu\\
-	La trajectoire du parcours est générée aléatoirement pour une expérience unique à chaque fois\\
-	Le jeu est physiquement exigeant pour le coureur et favorise la coopération entre compagnons
+\cventry{Spring\\2015}{Kinect Game for Laval Virtual}{Academic project}{
+    Kinect 2 obstacle course with Android companion app\\
+    Allies help the runner by dropping collectibles on his path\\
+    Enemies slow down or stop the runner by dropping bombs and obstacles on his path\\
+    Companion apps are connected to the main computer by WiFi on a LAN\\
+    The path is procedurally generated for a unique experience on each run\\
+    The game is physically demanding for the runner and promote cooperation among companions
 }
 
-\cventry{Spring\\2012 et 2014}{Développement d'un jeu de hockey sur coussin d'air}{Integrator Project}{
-	Interfaçage d'une application Java avec un framework C++ par JNI\\
-	Conception d'une architecture logicielle basée sur les patrons Composite et Visiteur\\
-	Application de patrons de conception~: Façade, Commande, Singleton, Observateur, etc.\\
-	Conception de l'interface graphique en Swing\\
-	Implémentation de la physique de jeu en 2D\\
-	Rendu de la scène 3D à l'aide d'OpenGL
+\cventry{Spring\\2012 and 2014}{Air Hockey Video Game}{Academic project}{
+    Build a JNI interface between a Java application and a C++ framework\\
+    Design an architecture mostly based on the Composite and Visitor design patterns\\
+    Implement other design patterns~: Facade, Command, Singleton, Observer, etc.\\
+    Design a graphical user interface with Swing\\
+    Render the 3D scene with OpenGL\\
+    Implement the 2D game physics
 }
 
-\cventry{Spring 2011}{Assemblage et programmation d'un robot}{Integrator Project}{
-	Montage de la carte mère pour accueillir un microcontrôleur ATMega16 et un pont en H\\
-	Assemblage et installation d'engrenages pour un petit moteur électrique\\
-	Interfaçage avec un capteur magnétique, un capteur infrarouge et d'une mémoire externe\\
-	Production de mélodies à l'aide du module PWM et d'un haut-parleur piézoélectrique\\
-	Développement d'un programme C++ pour la traversée d'un parcours à obstacles
+\cventry{Spring\\2011}{ATMega16 Robot Obstacle Course}{Academic project}{
+    Assemble and install gearing for a small electric motor\\
+    Setup the motherboard for a ATMega16 microcontroller and an H-bridge circuit\\
+    Build and interface for a magnetic captor, an infrared captor and an external memory\\
+    Produce melodies from a PWM module and a piezoelectric speaker\\
+    Develop a C++ program for the traversal of an obstacle course
 }
 
 
@@ -123,29 +138,33 @@
 
 \cvsection{SCOLARSHIPS}
  
-\cventry{Winter 2015}{Bourse du CRSNG}{}{
-	Bourse d'entrée à la maîtrise recherche
+\cventry{Winter 2015}{CRSNG Scholarship}{}{
+    Winner of federal competition for master's entry scholarship
 }
 
-\cventry{Winter 2015}{Bourse du FRQNT}{}{
-	Bourse d'entrée à la maîtrise recherche
+\cventry{Winter 2015}{FRQNT Scholarship}{}{
+	Winner of provincial competition for master's entry scholarship
 }
 
-\cventry{Winter 2011}{Prix Philip et Lily Malouf}{}{
-	Équipe gagnante du projet intégrateur de première année
+\cventry{Winter 2015}{Polytechnique Scholarship}{}{
+    Master's entry scholarship for the excellence of the academic record
 }
 
-\cventry{Autumn 2010}{Bourse du directeur général}{}{
-	Excellence du dossier scolaire au CÉGEP
+\cventry{Winter 2011}{Philip et Lily Malouf Prize}{}{
+	Winning team of first year integrator project contest
 }
 
-%% HOBIES
+\cventry{Fall 2010}{General Director's Scholarship}{}{
+	Excellence of the CÉGEP academic record
+}
 
-\cvsection{ACTIVITIES}
+
+%% REFERENCES
+\cvsection{REFERENCES}
 
 \cvplaincontent{
-	\textbf{Arts}~: Guitare, Clarinette, Illustration\\
-	\textbf{Sports}~: Nage, Vélo, Unicycle
+    Olivier Dionne, \textit{Software Development Manager at Autodesk}~: olivier.dionne@autodesk.com \\
+    François Guibault, \textit{Research Director}~: francois.guibault@polymtl.ca \\
+    Julien Marbach, \textit{Team Lead at Dental Wings}~: julien.marbach@dental-wings.com\\
+    Eric Brosseau, \textit{Team Lead at Zimmer CAS}~: brosse@sympatico.ca
 }
-
-\end{document}
