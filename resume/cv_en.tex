@@ -14,20 +14,21 @@
 	\textbf{Operating Systems}~: Linux, Windows, Mac OS X\\
 	\textbf{Languages}~: C++, GLSL, JavaScript, Python, Java, Latex, SVG\\	
 	\textbf{Libraries}~: Qt, OpenGL, CUDA, VTK, NodeJS, Electron, Unity\\	
-	\textbf{CG Techniques}~: path tracing, radiosity, volume rendering
+	\textbf{CG Techniques}~: path tracing, radiosity, volume rendering, shadow mapping
 }
 
 %% EDUCATION
 
 \cvsection{EDUCATION}
 
-\cventry{2015~--~2017}{Master of Computer Science}{Polytechnique Montréal}{
+\cventry{2015~--~2017}{Master of Computer Engineering}{Polytechnique Montréal}{
 	Parallel mesh adaptation on the CPU and GPU\\
-	Nominated for best master's thesis of the year
+	Nominated for best master's thesis of the year\\
+    Available at: \href{https://github.com/wibus/GpuMesh}{github.com/wibus/GpuMesh}
 }
 
 \cventry{2010~--~2015}{Bachelor of Software Engineering}{Polytechnique Montréal}{
-	Cumulative mean~: 3,93/4\\
+	Cumulative mean~: 3.93/4\\
 	Multimedia orientation
 }
 
@@ -35,7 +36,7 @@
 \cvsection{R\&D CONTRIBUTIONS}
 
 \cvplaincontent{
-    \textit{\textbf{Bussière, W.}, Guibault, F. (2017) Hybrid CPU/GPU parallel unstructured mesh adaptation. 14th U.S. National Congress on Computational Mechanics.} (design tests, generate results and edit tables and figures)
+    \textit{\textbf{Bussière, W.}, Guibault, F. (2017) Hybrid CPU/GPU parallel unstructured mesh adaptation. 14th U.S. National Congress on Computational Mechanics.} (tests design, results generation and tables and figures edition)
 }
 
 
@@ -43,17 +44,17 @@
 
 \cvsection{WORK EXPERIENCE}
 
-\cventry{Novembre 2017}{Software developer Realtime AR/VR Rendering}{Autodesk}{
-    Architectural visualization realtime renderer development for AR/VR devices\\
-    Optimise local light access for light baking on the GPU\\
+\cventry{Novembre 2017}{Software Dev. Realtime AR/VR Rendering}{Autodesk}{
+    Architectural visualization real time renderer for AR/VR devices\\
     Translate box lights shaders for OpenGL platforms\\
+    Optimize local lights access for light baking on the GPU\\
     Web page~: \href{https://www.autodesk.com/products/stingray/overview}{autodesk.com/products/stingray/overview}\\
     Agile/Scrum software processes
 }
 
 \cventry{Summer 2014}{Software Engineering Internship}{Dental Wings}{
-	Development of a new intraoral scanning station for digital dental impression\\
-	Implement a shadow casting engine in OpenGL/GLSL\\
+	Intraoral scanning station for digital dental impressions\\
+	Implement a shadow mapping engine in OpenGL/GLSL\\
 	Design jaw manipulation gestures for the Leap Motion\\
 	Web page~: \href{http://www.dentalwings.com/products/intraoral-scanner/}{dentalwings.com/products/intraoral-scanner}\\
 	Agile/Scrum software processes	
@@ -89,28 +90,28 @@
 
 \cvsection{PROJECTS}
 
-\cventry{2015~--~2016}{Short animated film}{Personal project}{
-    \textit{The Fruit -- A Moving Picture}~: \href{http://wibus.github.io/ExTh}{wibus.github.io/ExTh}\\
-    Animation, rendering and post-production software design exclusively for this animation\\
-    The system renders the images using a progressive multithreaded and distributed path tracer\\
-    The post-production software reduces the noise by sampling temporally, creates bloom effects, apply local tone-mapping  and corrects the gamma of the images\\
-    The scene contains zero triangles; every object is the result of boolean operations on quadrics (planes, spheres, paraboloids, hyperboloids)
+\cventry{2015~--~2016}{Short Animated Film}{Personal project}{
+    \textit{The Fruit -- A Moving Picture}~: \href{https://www.youtube.com/watch?v=VjX9oaAhz5A&t=43s}{www.youtube.com}\\
+    Animation, rendering and post-production software designed exclusively for this animation\\
+    The system renders the images using a progressive multi-threaded and distributed path tracer\\
+    The post-production software reduces the noise by sampling temporally, creates bloom effects, apply local tone-mapping and corrects the gamma of the images\\
+    The scene contains zero triangles; every object is the result of Boolean operations on quadrics (planes, spheres, paraboloids, hyperboloids, etc.)
 }
 
-\cventry{2011~--~2016}{Simulation engine}{Personal project}{
+\cventry{2011~--~2016}{Simulation Library}{Personal project}{
     \textit{Experiemental Theatre} is a  C++ library regrouping the four following modules:\\
-    $\bullet$ \textit{Cellar Workbech}~: Data structures, generic design patterns, logging, geometric primitives, resources management,  OpenGL wrapper classes, string utility functions, etc.\\
+    $\bullet$ \textit{Cellar Workbech}~: Data structures, generic design patterns, logging, geometric primitives, resource management,  OpenGL wrapper classes, string utility functions, etc.\\
     $\bullet$ \textit{Prop Room 2D}~: 2D rendering and Newtonian mechanic framework\\
     $\bullet$ \textit{Prop Room 3D}~: Multithreaded and distributed path tracing framework\\
     $\bullet$ \textit{Scaena}~: Game and simulation entity management framework\\
     At least ten personal projects are based on this library, including my master's research project\\
-    Open source Github repository: \href{http://www.github.com/wibus/ExperimentalTheatre}{github.com/wibus/ExperimentalTheatre}
+    Available at: \href{http://www.github.com/wibus/ExperimentalTheatre}{github.com/wibus/ExperimentalTheatre}
 }
 
 \cventry{Spring\\2015}{Kinect Game for Laval Virtual}{Academic project}{
     Kinect 2 obstacle course with Android companion app\\
     Allies help the runner by dropping collectibles on his path\\
-    Enemies slow down or stop the runner by dropping bombs and obstacles on his path\\
+    Enemies try to stop the runner by dropping bombs and obstacles on his path\\
     Companion apps are connected to the main computer by WiFi on a LAN\\
     The path is procedurally generated for a unique experience on each run\\
     The game is physically demanding for the runner and promote cooperation among companions
@@ -127,8 +128,8 @@
 
 \cventry{Spring\\2011}{ATMega16 Robot Obstacle Course}{Academic project}{
     Assemble and install gearing for a small electric motor\\
-    Setup the motherboard for a ATMega16 microcontroller and an H-bridge circuit\\
-    Build and interface for a magnetic captor, an infrared captor and an external memory\\
+    Setup the motherboard for an ATMega16 microcontroller and an H-bridge circuit\\
+    Design interfaces for a magnetic captor, an infrared captor and an external memory\\
     Produce melodies from a PWM module and a piezoelectric speaker\\
     Develop a C++ program for the traversal of an obstacle course
 }
@@ -147,7 +148,7 @@
 }
 
 \cventry{Winter 2015}{Polytechnique Scholarship}{}{
-    Master's entry scholarship for the excellence of the academic record
+    Excellence of Bachelor's academic record
 }
 
 \cventry{Winter 2011}{Philip et Lily Malouf Prize}{}{
@@ -155,7 +156,7 @@
 }
 
 \cventry{Fall 2010}{General Director's Scholarship}{}{
-	Excellence of the CÉGEP academic record
+	Excellence of CÉGEP academic record
 }
 
 
@@ -163,7 +164,7 @@
 \cvsection{REFERENCES}
 
 \cvplaincontent{
-    Olivier Dionne, \textit{Software Development Manager at Autodesk}~: olivier.dionne@autodesk.com \\
+    Olivier Dionne, \textit{Software Dev. Manager at Autodesk}~: olivier.dionne@autodesk.com \\
     François Guibault, \textit{Research Director}~: francois.guibault@polymtl.ca \\
     Julien Marbach, \textit{Team Lead at Dental Wings}~: julien.marbach@dental-wings.com\\
     Eric Brosseau, \textit{Team Lead at Zimmer CAS}~: brosse@sympatico.ca
