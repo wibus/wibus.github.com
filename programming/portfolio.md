@@ -27,8 +27,8 @@ title: Portfolio
 
 ![Radiance Variance](/img/portfolio/pt_variance.png){:height="400px" style="margin:-30px 0;"}
 
-* High variance = high noise
-* How much color is jumping from samples to samples
+* Color jumbs from samples to samples
+* High variance = high level of noise
 
 
 *4. Divergence map:*
@@ -77,4 +77,12 @@ title: Portfolio
 
 *Beams and Beads Shading*
 
-![](/img/portfolio/GPUMesh/BeamBeads.png){:width="850px" style="margin-top:-25px"}
+![](/img/portfolio/GPUMesh/BeamBeads.png){:width="870px" style="margin-top:-25px"}
+
+<br>
+
+## Volume Rendering
+
+![](/img/portfolio/VolumeRendering/BallFloorShadow.png){:height="280px"}
+![](/img/portfolio/VolumeRendering/Shell.png){:height="280px"}
+![](/img/portfolio/VolumeRendering/SinNoise.png){:height="280px"}
